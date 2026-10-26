@@ -7,7 +7,7 @@
     "tag": "minecraft:enchantable/durability"
   },
   "enchantments": [
-    "morgcraft:constitution",
+    "espresso:constitution",
     "supplementaries:stasis"
   ]
 }

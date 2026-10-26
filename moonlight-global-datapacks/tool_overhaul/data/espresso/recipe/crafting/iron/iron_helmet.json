@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "tag": "espresso:is_helmet_base"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XBX",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_helmet"
+  }
+}

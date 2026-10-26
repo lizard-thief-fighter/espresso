@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "terralith:cave/frostfire_caves",
-  "features": "morgcraft:diamond_geode_extra",
-  "step": "local_modifications"
-}

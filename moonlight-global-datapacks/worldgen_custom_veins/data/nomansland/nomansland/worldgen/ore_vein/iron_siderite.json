@@ -1,5 +1,5 @@
 {
-  "biomes": "#morgcraft:has_vein_iron",
+  "biomes": "#espresso:has_vein_iron",
   "sample_biome_at_surface": true,
   "probability": 1.0,
   "generation_order": 10,

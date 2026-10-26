@@ -8,7 +8,7 @@
   },
   "enchantments": [
     "minecraft:knockback",
-    "morgcraft:leaping",
+    "espresso:leaping",
     "minecraft:punch"
   ]
 }

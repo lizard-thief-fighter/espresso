@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#morgcraft:has_amethyst_geode_extra",
-  "features": "morgcraft:amethyst_geode_extra",
-  "step": "local_modifications"
-}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "B": {
+      "tag": "espresso:is_leggings_base"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "XBX",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_leggings"
+  }
+}

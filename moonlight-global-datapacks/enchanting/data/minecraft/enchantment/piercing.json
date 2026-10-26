@@ -16,8 +16,8 @@
       }
     ]
   },
-  "exclusive_set": "#morgcraft:exclusive_set/secondary",
-  "supported_items": "#morgcraft:enchantable/ranged",
+  "exclusive_set": "#espresso:exclusive_set/secondary",
+  "supported_items": "#espresso:enchantable/ranged",
   "slots": [
     "mainhand",
     "offhand"

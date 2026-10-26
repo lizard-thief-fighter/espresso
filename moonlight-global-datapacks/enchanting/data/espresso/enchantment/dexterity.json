@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate": "enchantment.espresso.dexterity"
+  },
+  "effects": {
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:linear",
+        "base": -0.50,
+        "per_level_above_first": -0.50
+      }
+    },
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_1"
+      },
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_2"
+      },
+      {
+        "end": "minecraft:item.crossbow.loading_end",
+        "start": "minecraft:item.crossbow.quick_charge_3"
+      }
+    ]
+  },
+  "exclusive_set": "#espresso:exclusive_set/secondary",
+  "supported_items": "#espresso:enchantable/dexterity",
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

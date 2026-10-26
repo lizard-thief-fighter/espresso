@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.espresso.kinesis"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "oreganized:kinetic_damage",
+        "id": "espresso:enchantment.kinesis"
+      }
+    ]
+  },
+  "exclusive_set": "#espresso:exclusive_set/secondary",
+  "supported_items": "#espresso:enchantable/weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

@@ -31,7 +31,7 @@
       }
     ]
   },
-  "exclusive_set": "#morgcraft:exclusive_set/secondary",
+  "exclusive_set": "#espresso:exclusive_set/secondary",
   "supported_items": "#minecraft:enchantable/armor",
   "slots": [
     "armor"

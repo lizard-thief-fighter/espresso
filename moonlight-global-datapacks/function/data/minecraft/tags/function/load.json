@@ -1,6 +1,6 @@
 {
     "values": [
-        "morgcraft:set_gamerules"
+        "espresso:set_gamerules"
     ],
     "remove": [
         "terralith:setup.mcfunction"

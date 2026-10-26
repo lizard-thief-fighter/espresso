@@ -7,8 +7,8 @@
     "tag": "minecraft:enchantable/durability"
   },
   "enchantments": [
-    "morgcraft:manifold",
-    "morgcraft:retribution",
+    "espresso:manifold",
+    "espresso:retribution",
     "minecraft:sharpness",
     "minecraft:thorns"
   ]

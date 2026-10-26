@@ -22,7 +22,7 @@
       }
     ]
   },
-  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "exclusive_set": "#espresso:exclusive_set/primary",
   "supported_items": "create:potato_cannon",
   "slots": [
     "mainhand"

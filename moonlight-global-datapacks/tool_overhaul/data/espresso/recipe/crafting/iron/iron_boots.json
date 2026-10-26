@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "tag": "espresso:is_boots_base"
+    }
+  },
+  "pattern": [
+    "   ",
+    "X X",
+    "XBX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_boots"
+  }
+}

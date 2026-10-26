@@ -7,7 +7,7 @@
     "tag": "minecraft:enchantable/durability"
   },
   "enchantments": [
-    "morgcraft:frostbite",
+    "espresso:frostbite",
     "minecraft:frost_walker"
   ]
 }

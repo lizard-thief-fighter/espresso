@@ -3,8 +3,8 @@
   "description": {
     "translate": "enchantment.create.capacity"
   },
-  "exclusive_set": "#morgcraft:exclusive_set/tertiary",
-  "supported_items": "#morgcraft:enchantable/capacity",
+  "exclusive_set": "#espresso:exclusive_set/tertiary",
+  "supported_items": "#espresso:enchantable/capacity",
   "slots": [
     "mainhand"
   ],

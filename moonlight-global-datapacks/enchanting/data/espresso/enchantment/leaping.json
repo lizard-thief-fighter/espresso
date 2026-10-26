@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.espresso.leaping"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:generic.jump_strength",
+        "id": "espresso:enchantment.leaping"
+      }
+    ]
+  },
+  "exclusive_set": "#espresso:exclusive_set/tertiary",
+  "supported_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

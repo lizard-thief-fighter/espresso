@@ -1,0 +1,20 @@
+{
+  "values": [
+    "espresso:deflection",
+    "espresso:wicking",
+    "espresso:reactive",
+    "minecraft:feather_falling",
+    "espresso:constitution",
+    "minecraft:thorns",
+    "minecraft:fire_aspect",
+    "espresso:frostbite",
+    "espresso:infestation",
+    "espresso:kinesis",
+    "espresso:rending_gale",
+    "espresso:manifold",
+    "minecraft:punch",
+    "supplementaries:stasis",
+    "espresso:flanking",
+    "espresso:dexterity"
+  ]
+}

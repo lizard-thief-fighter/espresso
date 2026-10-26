@@ -27,8 +27,8 @@
       }
     ]
   },
-  "exclusive_set": "#morgcraft:exclusive_set/primary",
-  "supported_items": "#morgcraft:enchantable/protection",
+  "exclusive_set": "#espresso:exclusive_set/primary",
+  "supported_items": "#espresso:enchantable/protection",
   "slots": [
     "armor",
     "mainhand",

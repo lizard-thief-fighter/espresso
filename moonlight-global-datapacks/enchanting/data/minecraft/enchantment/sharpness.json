@@ -16,7 +16,7 @@
       }
     ]
   },
-  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "exclusive_set": "#espresso:exclusive_set/primary",
   "supported_items": "#minecraft:enchantable/weapon",
   "slots": [
     "mainhand"

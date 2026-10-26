@@ -7,7 +7,7 @@
     "tag": "minecraft:enchantable/durability"
   },
   "enchantments": [
-    "morgcraft:cunning",
-    "morgcraft:flanking"
+    "espresso:cunning",
+    "espresso:flanking"
   ]
 }

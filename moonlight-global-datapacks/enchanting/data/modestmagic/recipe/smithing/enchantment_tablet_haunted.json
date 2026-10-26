@@ -7,7 +7,7 @@
     "tag": "minecraft:enchantable/durability"
   },
   "enchantments": [
-    "morgcraft:deflection",
-    "morgcraft:rending_gale"
+    "espresso:deflection",
+    "espresso:rending_gale"
   ]
 }

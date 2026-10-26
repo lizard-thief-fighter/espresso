@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#espresso:has_quartzite_geode_extra",
+  "features": "espresso:quartzite_geode_extra",
+  "step": "local_modifications"
+}
