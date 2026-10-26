@@ -17,7 +17,7 @@
     ]
   },
   "exclusive_set": "#espresso:exclusive_set/secondary",
-  "supported_items": "#espresso:enchantable/weapon",
+  "supported_items": "#minecraft:enchantable/weapon",
   "slots": [
     "mainhand"
   ],

@@ -214,7 +214,6 @@ key_key.beltborne_lanterns.toggle_debug:key.keyboard.unknown
 key_key.beltborne_lanterns.open_debug:key.keyboard.unknown
 key_key.beltborne_lanterns.toggle_lantern:key.keyboard.b
 key_key.raised.options:key.keyboard.unknown
-key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.entityculling.toggle:key.keyboard.unknown
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 soundCategory_master:0.0

@@ -1,6 +1,6 @@
 {
     "values": [
-        "espresso:set_gamerules"
+        "espresso:load"
     ],
     "remove": [
         "terralith:setup.mcfunction"
