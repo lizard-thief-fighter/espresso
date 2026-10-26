@@ -10,6 +10,7 @@ Checks:
 """
 import argparse
 import json
+import os
 import pathlib
 import re
 import sys
@@ -177,8 +178,9 @@ def main() -> int:
     parsed = load_json_files(root)
     check_references(root, parsed)
     check_options(root)
+    prefix = "::error::" if os.environ.get("GITHUB_ACTIONS") == "true" else "ERROR: "
     for e in errors:
-        print(f"ERROR: {e}")
+        print(f"{prefix}{e}")
     print(f"{len(parsed)} JSON files parsed; {len(list((root / '.index').glob('*.pw.toml')))} mods; {len(errors)} errors")
     return 1 if errors else 0
 

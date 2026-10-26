@@ -9,11 +9,15 @@ required on both sides, because in single-player the client runs the server.
 """
 import argparse
 import json
+import os
 import pathlib
 import sys
 import tomllib
+import urllib.error
 import urllib.request
 import zipfile
+
+ERROR = "::error::" if os.environ.get("GITHUB_ACTIONS") == "true" else "ERROR: "
 
 API = "https://api.modrinth.com/v2/version_files"
 USER_AGENT = "lizard-thief-fighter/espresso (pack build)"
@@ -88,13 +92,20 @@ def main() -> int:
     if a.lookup_cache:
         versions = json.loads(pathlib.Path(a.lookup_cache).read_text())
     else:
-        versions = lookup([m["sha512"] for m in mods])
+        try:
+            versions = lookup([m["sha512"] for m in mods])
+        except urllib.error.HTTPError as e:
+            print(f"{ERROR}Modrinth lookup failed: HTTP {e.code} {e.reason}: {e.read()[:300]!r}")
+            return 1
+        except urllib.error.URLError as e:
+            print(f"{ERROR}Modrinth lookup failed: {e.reason}")
+            return 1
     if a.save_lookup:
         pathlib.Path(a.save_lookup).write_text(json.dumps(versions, indent=1, sort_keys=True))
 
     files, problems = resolve_files(mods, versions)
     for p in problems:
-        print(f"ERROR: {p}")
+        print(f"{ERROR}{p}")
     if problems:
         return 1
 
