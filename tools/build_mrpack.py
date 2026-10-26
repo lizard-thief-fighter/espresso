@@ -16,6 +16,7 @@ import tomllib
 import urllib.error
 import urllib.request
 import zipfile
+from urllib.parse import unquote
 
 ERROR = "::error::" if os.environ.get("GITHUB_ACTIONS") == "true" else "ERROR: "
 
@@ -54,7 +55,9 @@ def resolve_files(mods: list[dict], versions: dict) -> tuple[list[dict], list[st
         if f is None:
             problems.append(f"{m['entry']}: sha512 not found on Modrinth")
             continue
-        if f["url"] != m["url"]:
+        # Compare decoded URLs: Prism may store a space or `+` unencoded. The pack
+        # always uses Modrinth's properly encoded URL.
+        if unquote(f["url"]) != unquote(m["url"]):
             problems.append(f"{m['entry']}: URL differs from Modrinth ({f['url']})")
         if f["filename"] != m["filename"]:
             problems.append(f"{m['entry']}: filename differs from Modrinth ({f['filename']})")
@@ -63,7 +66,7 @@ def resolve_files(mods: list[dict], versions: dict) -> tuple[list[dict], list[st
             "path": f"mods/{m['filename']}",
             "hashes": {"sha1": f["hashes"]["sha1"], "sha512": m["sha512"]},
             "env": {"client": "required", "server": "unsupported" if client_only else "required"},
-            "downloads": [m["url"]],
+            "downloads": [f["url"]],
             "fileSize": f["size"],
         })
     return files, problems
