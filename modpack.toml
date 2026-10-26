@@ -1,0 +1,15 @@
+# Single source of truth for the pack's identity and target versions.
+# Bump `version` per the project's versioning rules; release tags must be `v<version>`.
+
+[pack]
+name = "Espresso!"
+version = "0.0.4"
+summary = "Expands on Minecraft's open-ended design, with more reasons to pursue every path."
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"
+
+[build]
+# Copied into the .mrpack `overrides/` folder.
+overrides = ["config", "moonlight-global-datapacks", "resourcepacks", "options.txt"]

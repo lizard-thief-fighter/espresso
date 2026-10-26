@@ -1,0 +1,66 @@
+name: Build pack
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check pack
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          if [ "$REF_TYPE" = "tag" ]; then
+            python tools/check_pack.py --tag "$REF_NAME"
+          else
+            python tools/check_pack.py
+          fi
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build .mrpack
+        run: python tools/build_mrpack.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mrpack
+          path: dist/*.mrpack
+          if-no-files-found: error
+
+  release:
+    if: github.ref_type == 'tag'
+    needs: [check, build]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: mrpack
+          path: dist
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          gh release create "$REF_NAME" dist/*.mrpack \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Espresso! $REF_NAME" \
+            --generate-notes
