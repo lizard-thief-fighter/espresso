@@ -1,0 +1,19 @@
+[general]
+	#Enable Creative Tab
+	creative_tab = false
+	#Enable Creative Tab
+	# Default: 75
+	# Range: 0 ~ 100
+	rusting_rate = 75
+	#Rate at which Wet Cement flows
+	# Default: 8
+	# Range: 1 ~ 32
+	cement_flow_rate = 8
+	#Amount of age states before cement can harden
+	# Default: 3
+	# Range: 1 ~ 4
+	cement_cure_delay = 3
+	#Odds of cement cracking after falling
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	cement_crack_chance = 0.5

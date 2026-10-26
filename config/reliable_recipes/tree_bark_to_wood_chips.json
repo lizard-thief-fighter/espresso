@@ -1,0 +1,7 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farmersdelight:tree_bark",
+    "replacement": "createdieselgenerators:wood_chip"
+  }
+]

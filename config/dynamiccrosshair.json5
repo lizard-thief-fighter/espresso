@@ -1,0 +1,183 @@
+{
+	"dynamicCrosshair": true,
+	"disableDebugCrosshair": false,
+	"thirdPersonCrosshair": false,
+	"hideWithScreen": true,
+	"hideWithMap": true,
+	"fixCenteredCrosshair": false,
+	"crosshairConfig": {
+		"onBlock": false,
+		"onInteractableBlock": true,
+		"onEntity": false,
+		"holdingTool": "Always",
+		"displayCorrectTool": false,
+		"holdingMeleeWeapon": true,
+		"meleeWeaponOnEntity": false,
+		"meleeWeaponOnBreakableBlock": false,
+		"holdingRangedWeapon": "Always",
+		"holdingThrowable": "Always",
+		"holdingShield": false,
+		"holdingBlock": "IfInteractable",
+		"holdingBlockInOffhand": false,
+		"holdingUsableItem": "Disabled",
+		"forceHoldingSpyglass": false
+	},
+	"color": {
+		"overrideColor": false,
+		"customColor": -5588020,
+		"enableBlend": true
+	},
+	"dynamicCrosshairStyle": true,
+	"crosshairStyle": {
+		"regular": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"onBlock": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"onEntity": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"holdingTool": {
+			"style": "dynamiccrosshair:crosshair/diamond",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"holdingMeleeWeapon": {
+			"style": "dynamiccrosshair:crosshair/diamond",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"holdingRangedWeapon": {
+			"style": "dynamiccrosshair:crosshair/circle",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"holdingThrowable": {
+			"style": "dynamiccrosshair:crosshair/circle",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"holdingBlock": {
+			"style": "dynamiccrosshair:crosshair/square",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"interact": {
+			"style": "dynamiccrosshair:crosshair/square",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"useItem": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		},
+		"shield": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": false,
+			"customColor": -5588020,
+			"enableBlend": true,
+			"coalesce": false
+		}
+	},
+	"crosshairModifiers": {
+		"modCorrectTool": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": true,
+			"customColor": -16711936,
+			"enableBlend": false,
+			"coalesce": false
+		},
+		"modIncorrectTool": {
+			"style": "dynamiccrosshair:crosshair/custom-1",
+			"overrideColor": true,
+			"customColor": -65536,
+			"enableBlend": false,
+			"coalesce": false
+		}
+	},
+	"enableTweaks": true,
+	"additionalTools": [
+		"powergrid:wire_cutter",
+		"powergrid:string_light_cord",
+		"powergrid:copper_cord",
+		"powergrid:golden_wire",
+		"powergrid:iron_wire",
+		"powergrid:insulated_copper_wire",
+		"powergrid:wire",
+		"supplementaries:rope",
+		"minecraft:stick",
+		"chalk:black_chalk",
+		"chalk:blue_chalk",
+		"chalk:brown_chalk",
+		"chalk:chalk_box",
+		"chalk:cyan_chalk",
+		"chalk:gray_chalk",
+		"chalk:green_chalk",
+		"chalk:light_blue_chalk",
+		"chalk:light_gray_chalk",
+		"chalk:lime_chalk",
+		"chalk:magenta_chalk",
+		"chalk:orange_chalk",
+		"chalk:pink_chalk",
+		"chalk:purple_chalk",
+		"chalk:red_chalk",
+		"chalk:white_chalk",
+		"chalk:yellow_chalk",
+		"create:handheld_worldshaper",
+		"create:wrench",
+		"quark:flamerang",
+		"quark:pickarang",
+		"quark:trowel",
+		"simulated:creative_physics_staff"
+	],
+	"additionalMeleeWeapons": [
+		"minecraft:wooden_spear",
+		"minecraft:stone_spear",
+		"minecraft:netherite_spear",
+		"minecraft:iron_spear",
+		"minecraft:golden_spear",
+		"oreganized:electrum_spear",
+		"minecraft:diamond_spear",
+		"oreganized:electrum_knife",
+		"farmersdelight:diamond_knife",
+		"farmersdelight:flint_knife",
+		"farmersdelight:golden_knife",
+		"farmersdelight:iron_knife",
+		"farmersdelight:netherite_knife"
+	],
+	"additionalRangedWeapons": [
+		"create:potato_cannon",
+		"simulated:plunger_launcher"
+	],
+	"additionalThrowables": [],
+	"additionalUsableItems": [],
+	"additionalInteractableBlocks": []
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "minecraft:enchanting_table",
+            "minecraft:enchanted_book",
+            "minecraft:lingering_potion",
+            "minecraft:suspicious_stew",
+            "minecraft:tipped_arrow",
+            "minecraft:zombie_head",
+            "minecraft:trapped_chest",
+            "minecraft:experience_bottle",
+            "minecraft:sniffer_egg",
+            "minecraft:torchflower",
+            "minecraft:torchflower_seeds"
+        ],
+        "patterns": [
+        ]
+    },
+    {
+        "action": "remove_interactions",
+        "items": [
+            "minecraft:firework_rocket"
+        ]
+    }
+]

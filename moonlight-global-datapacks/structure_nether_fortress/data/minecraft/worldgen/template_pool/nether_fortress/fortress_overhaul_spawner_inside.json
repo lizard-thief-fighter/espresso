@@ -1,0 +1,24 @@
+{
+	"name": "minecraft:nether_fortress/nether_fortress_bridge_conector",	
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/spawner/nether_fortress_overhaul_spawner",
+        "processors": "minecraft:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/spawner/nether_fortress_overhaul_barrel",
+        "processors": "minecraft:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 9
+    }
+  ],
+  "fallback": "minecraft:nether_fortress/fortress_overhaul_spawner"
+}

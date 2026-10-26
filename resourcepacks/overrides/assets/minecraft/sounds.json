@@ -1,0 +1,12 @@
+{
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
+}

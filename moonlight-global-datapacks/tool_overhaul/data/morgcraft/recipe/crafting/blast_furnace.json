@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "tag": "minecraft:deepslate"
+    },
+    "S": {
+      "tag": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "D D",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
+}

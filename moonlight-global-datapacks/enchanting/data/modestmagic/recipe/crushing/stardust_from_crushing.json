@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "results": [
+    {
+      "id": "modestmagic:stardust",
+      "count": 16
+    }
+  ],
+  "processingTime": 50
+}

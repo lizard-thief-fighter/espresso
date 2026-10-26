@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:breeze_rod"
+    },
+    {
+      "item": "minecraft:wind_charge"
+    },
+    {
+      "item": "supplementaries:turn_table"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_haunted"
+  }
+]
+}

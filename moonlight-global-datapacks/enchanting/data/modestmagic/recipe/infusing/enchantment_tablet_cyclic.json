@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "tag": "c:music_discs"
+    },
+    {
+      "item": "create:propeller"
+    },
+    {
+      "tag": "c:maple_saplings"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_cyclic"
+  }
+]
+}

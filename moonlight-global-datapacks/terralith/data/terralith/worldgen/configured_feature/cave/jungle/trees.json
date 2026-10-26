@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": "terralith:cave/jungle/cherry_tree",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.1,
+                "feature": {
+                    "feature": "nomansland:willow",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.1,
+                "feature": {
+                    "feature": "nomansland:small_willow",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.05,
+                "feature": {
+                    "feature": "terralith:cave/fungal/mushroom/brown_medium",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.05,
+                "feature": {
+                    "feature": "terralith:cave/fungal/mushroom/red_medium",
+                    "placement": []
+                }
+            }
+        ],
+        "default": {
+            "feature": "minecraft:azalea_tree",
+            "placement": []
+        }
+    }
+}

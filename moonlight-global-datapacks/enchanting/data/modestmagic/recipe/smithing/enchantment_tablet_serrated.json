@@ -1,0 +1,15 @@
+{
+  "type": "modestmagic:tablet_smithing",
+  "template": {
+    "item": "modestmagic:enchantment_tablet_serrated"
+  },
+  "base": {
+    "tag": "minecraft:enchantable/durability"
+  },
+  "enchantments": [
+    "morgcraft:manifold",
+    "morgcraft:retribution",
+    "minecraft:sharpness",
+    "minecraft:thorns"
+  ]
+}

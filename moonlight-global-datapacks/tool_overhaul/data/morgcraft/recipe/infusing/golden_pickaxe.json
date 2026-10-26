@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "minecraft:stone_pickaxe"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "tag": "create:stone_types/deepslate"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_pickaxe"
+    }
+  ]
+}

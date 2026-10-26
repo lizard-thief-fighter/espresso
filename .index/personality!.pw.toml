@@ -1,0 +1,21 @@
+filename = 'personality-1.21.1-5.0.2.jar'
+name = 'Personality'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.0.2'
+
+[download]
+hash = '5634d58682a5b41f9e351f7970e1a0f9a56b88ebb27b6c2deba0370f322f281ddfb3aea0011cb85c8488ee0cdc0cbf1e8ddbb8fb6fcd3f8a4bfb06b670533a72'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zrAMu1nt/versions/GQKsKYS3/personality-1.21.1-5.0.2.jar'
+
+[update.modrinth]
+mod-id = 'zrAMu1nt'
+version = 'GQKsKYS3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VsM5EDoI'
+type = 'REQUIRED'

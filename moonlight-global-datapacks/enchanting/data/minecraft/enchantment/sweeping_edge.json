@@ -1,0 +1,43 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.sweeping_edge"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:fraction",
+          "numerator": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          },
+          "denominator": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 1.0
+          }
+        },
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "id": "minecraft:enchantment.sweeping_edge",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/tertiary",
+  "supported_items": "#minecraft:enchantable/sword",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

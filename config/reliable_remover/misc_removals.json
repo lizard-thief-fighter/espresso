@@ -1,0 +1,18 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "bosses_of_mass_destruction:earthdive_spear",
+            "bosses_of_mass_destruction:monolith_block",
+            "effortlessbuilding:randomizer_tool",
+            "farmersdelight:rope",
+            "horseman:copper_horn",
+            "incubation:fried_egg",
+            "modulation:cast_post",
+            "modulation:chain_staff",
+            "modulation:zipline_staff"
+        ],
+        "patterns": [
+        ]
+    }
+]

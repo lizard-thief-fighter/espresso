@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "createdieselgenerators:plant_oil",
+      "amount": 100
+    },
+    {
+      "type": "fluid_tag",
+      "fluid_tag": "c:ethanol",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "createdieselgenerators:biodiesel",
+      "amount": 200
+    }
+  ]
+}

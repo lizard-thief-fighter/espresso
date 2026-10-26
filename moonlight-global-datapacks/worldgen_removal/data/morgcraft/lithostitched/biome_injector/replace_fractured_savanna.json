@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "terralith:fractured_savanna"
+  ],
+  "replacement": "terralith:savanna_slopes"
+}

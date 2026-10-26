@@ -1,0 +1,23 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Fire Spread Tweaks -> Config",
+	"Enable Fire Spread Tweaks": {
+		"//": "Whether Fire Spread Tweaks is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"timeFireBurnsInTicks": {
+		"//": "The time a fire will keep burning for in ticks. 20 ticks = 1 second. min: 0, max: 72,000",
+		"value": 300
+	},
+	"enableRandomizedFireDuration": {
+		"//": "When enabled, uses the MinRandomExtraBurnTicks and MaxRandomExtraBurnTicks config values to randomize the time fire burns for.",
+		"value": true
+	},
+	"MinRandomExtraBurnTicks": {
+		"//": "If randomized fire duration is enabled, a random tick number will be chosen in between the minimum and maximum value. This will be added to timeFireBurnsInTicks. If the outcome is negative, it will be subtracted. min: -36,000, max: 0",
+		"value": -100
+	},
+	"MaxRandomExtraBurnTicks": {
+		"//": "See MinRandomExtraBurnTicks's description. min: 0, max: 36,000",
+		"value": 100
+	}
+}

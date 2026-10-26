@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/gold"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "powergrid:golden_wire"
+    }
+  ]
+}

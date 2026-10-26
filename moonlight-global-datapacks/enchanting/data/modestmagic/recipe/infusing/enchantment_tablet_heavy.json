@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+	  "item": "minecraft:heavy_core"
+	},
+  {
+	  "item": "supplementaries:cannonball"
+	},
+  {
+	  "item": "minecraft:iron_block"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_heavy"
+  }
+]
+}

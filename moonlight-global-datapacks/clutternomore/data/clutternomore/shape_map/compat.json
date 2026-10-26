@@ -1,0 +1,250 @@
+{
+  "replace": true,
+  "priority": 501,
+  "add": {
+    "minecraft:bamboo_block": [
+      "minecraft:stripped_bamboo_block"
+    ],
+    "/quark:(?<wood>.+)_post/": [
+      "quark:stripped_${wood}_post"
+    ],
+    "/everycomp:q/(?<ns>[^:]+)/(?<wood>.+)_post/": [
+      "everycomp:q/${ns}/stripped_${wood}_post"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_post/": [
+      "${ns}:stripped_${wood}_post"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_planks/": [
+      "nomansland:trimmed_${wood}_planks",
+      "everycomp:nml/${ns}/trimmed_${wood}_planks"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_fence/": [
+      "${ns}:${wood}_fence_gate"
+    ],
+    "minecraft:nether_brick_fence": [
+      "quark:nether_brick_fence_gate"
+    ],
+    "minecraft:iron_bars": [
+      "supplementaries:iron_gate"
+    ],
+    "quark:gold_bars": [
+      "supplementaries:gold_gate"
+    ],
+    "/(?<ns>[^:]+):(?<stem>.+)_door/": [
+      "${ns}:locked_${stem}_door",
+      "${ns}:${stem}_trapdoor"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_button/": [
+      "${ns}:${wood}_pressure_plate"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_chest/": [
+      "farmersdelight:${wood}_cabinet",
+      "everycomp:fd/${ns}/${wood}_cabinet"
+    ],
+    "/everycomp:q/nomansland/(?<wood>.+)_chest/": [
+      "nomansland:${wood}_cabinet"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_sign/": [
+      "${ns}:${wood}_hanging_sign",
+      "/supplementaries:.*way_sign_${wood}/"
+    ],
+
+    "/create:polished_cut_(?<stem>.+)/": [
+      "create:layered_${stem}",
+      "create:${stem}_pillar"
+    ],
+
+    "minecraft:mud_bricks": [
+      "quark:carved_mud_bricks",
+      "quark:mud_pillar",
+      "quark:mud_brick_lattice"
+    ],
+
+    "minecraft:purpur_block": [
+      "minecraft:purpur_pillar"
+    ],
+
+    "minecraft:quartz_block": [
+      "minecraft:chiseled_quartz_block",
+      "minecraft:quartz_bricks",
+      "minecraft:quartz_pillar"
+    ],
+
+    "quark:midori_block": [
+      "quark:midori_pillar"
+    ],
+
+    "quark:iron_plate": [
+      "quark:iron_pillar"
+    ],
+
+    "oreganized:cut_lead": [
+      "oreganized:lead_bricks",
+      "oreganized:lead_pillar"
+    ],
+
+    "/(?<ns>[^:]+):(?<stem>.+)_bricks/": [
+      "${ns}:cracked_${stem}_bricks"
+    ],
+
+    "/minecraft:(?<stem>.+)/": [
+      "minecraft:chiseled_${stem}"
+    ],
+
+    "oreganized:polished_glance": [
+      "oreganized:chiseled_glance"
+    ],
+
+    "minecraft:cut_copper": [
+      "minecraft:chiseled_copper",
+      "minecraft:copper_grate"
+    ],
+
+    "/minecraft:(?<stem>.+)_cut_copper/": [
+      "minecraft:${stem}_chiseled_copper",
+      "minecraft:${stem}_copper_grate"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_leaves/": [
+      "quark:${wood}_hedge",
+      "everycomp:q/${ns}/${wood}_hedge"
+    ],
+    "/(?<ns>[^:]+):(?<stem>.+)_window/": [
+      "${ns}:${stem}_window_pane"
+    ],
+
+    "minecraft:dirt": [
+      "minecraft:coarse_dirt"
+    ],
+    "nomansland:silt": [
+      "nomansland:coarse_silt"
+    ],
+
+    "farmersdelight:canvas_sign": [
+      "farmersdelight:hanging_canvas_sign"
+    ],
+    "/farmersdelight:(?<color>.+)_canvas_sign/": [
+      "farmersdelight:${color}_hanging_canvas_sign"
+    ],
+
+    "/(?<ns>[^:]+):(?<stem>.+)_glass/": [
+      "${ns}:${stem}_glass_pane"
+    ],
+    "/(?<ns>[^:]+):(?<stem>.+)_window/": [
+      "${ns}:${stem}_window_pane"
+    ],
+
+    "minecraft:glass": [
+      "minecraft:glass_pane"
+    ],
+
+    "minecraft:item_frame": [
+      "quark:glass_item_frame"
+    ],
+
+    "minecraft:glow_item_frame": [
+      "quark:glowing_glass_item_frame"
+    ],
+
+    "exposure:photograph_frame": [
+      "exposure:glass_photograph_frame"
+    ],
+
+    "create:cogwheel": [
+      "create:large_cogwheel",
+      "bits_n_bobs:small_flanged_cogwheel",
+      "bits_n_bobs:large_flanged_cogwheel"
+    ],
+    "create:gearbox": [
+      "create:vertical_gearbox"
+    ],
+    "create:gearshift": [
+      "simulated:directional_gearshift",
+      "create:clutch"
+    ],
+    "minecraft:chain": [
+      "createtransmission:transmission_chain",
+      "create:encased_chain_drive"
+    ],
+    "create:water_wheel": [
+      "create:large_water_wheel"
+    ],
+    "create:copycat_panel": [
+      "create:copycat_step"
+    ],
+    "sliceanddice:sprinkler": [
+      "sliceanddice:floor_sprinkler"
+    ],
+    "create:stressometer": [
+      "create:speedometer"
+    ],
+    "create:andesite_funnel": [
+      "create:andesite_tunnel"
+    ],
+    "create:brass_funnel": [
+      "create:brass_tunnel"
+    ],
+    "create:nixie_tube": [
+      "bits_n_bobs:large_nixie_tube",
+      "bits_n_bobs:nixie_board"
+    ],
+    "bits_n_bobs:lightbulb": [
+      "bits_n_bobs:headlamp"
+    ],
+    "create:metal_girder": [
+      "bits_n_bobs:girder_strut",
+      "bits_n_bobs:cable_girder_strut"
+    ],
+    "bits_n_bobs:weathered_metal_girder": [
+      "bits_n_bobs:weathered_girder_strut"
+    ],
+    "createdieselgenerators:andesite_girder": [
+      "createdieselgenerators:andesite_girder_strut"
+    ],
+    "bits_n_bobs:industrial_grating": [
+      "bits_n_bobs:industrial_grating_panel",
+      "bits_n_bobs:industrial_truss"
+    ],
+    "create:rope_pulley": [
+      "bits_n_bobs:chain_pulley"
+    ],
+    "create:linear_chassis": [
+      "create:secondary_linear_chassis"
+    ],
+    "create:white_sail": [
+      "simulated:white_symmetric_sail",
+      "create:sail_frame"
+    ],
+    "hotstuff:copycat_sail": [
+      "hotstuff:copycat_symmetric_sail"
+    ],
+    "supplementaries:timber_frame": [
+      "supplementaries:timber_brace",
+      "supplementaries:timber_cross_brace"
+    ],
+    "suppsquared:metal_frame": [
+      "suppsquared:metal_brace",
+      "suppsquared:metal_cross_brace"
+    ],
+    "supplementaries:daub_frame": [
+      "supplementaries:daub_brace",
+      "supplementaries:daub_cross_brace"
+    ],
+    "/(minecraft|dye_depot):(?<color>.+)_banner/": [
+      "supplementaries:flag_${color}"
+    ],
+    "/create:(?<color>.+)_seat/": [
+      "bits_n_bobs:${color}_chair"
+    ]
+  },
+  "remove": {
+    "/minecraft:.*tuff.*/": ["/caverns_and_chasms:.*tuff.*/"],
+    "/caverns_and_chasms:.*tuff.*/": ["/minecraft:.*tuff.*/"],
+    "/minecraft:.*quartz.*/": ["/ae2:.*quartz.*/"],
+    "/ae2:.*quartz.*/": ["/minecraft:.*quartz.*/"],
+    "#clutternomore:shape_map_blacklist": ["/.*/"],
+    "/.*/": [
+      "#clutternomore:shape_map_blacklist"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "supplementaries:spring_launcher"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_flinging"
+  }
+]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/xray",
+  "textures": {
+    "all": "oreganized:block/spotted_glance"
+  }
+}

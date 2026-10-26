@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "minecraft:stone_hoe"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "tag": "c:crops"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_hoe"
+    }
+  ]
+}

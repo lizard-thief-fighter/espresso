@@ -1,0 +1,18 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "createaddition:festive_spool",
+            "createaddition:gold_rod",
+            "createaddition:straw",
+            "createaddition:digital_adapter"
+        ],
+        "patterns": [
+            "createaddition:diamond.*",
+            "createaddition:electrum.*",
+            "createaddition:seed_oil.*",
+            "createaddition:bioethanol.*",
+            "createaddition:.*cake.*"
+        ]
+    }
+]

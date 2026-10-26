@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": [
+    {
+      "item": "nomansland:resin"
+    }
+  ],
+  "result": {
+    "id": "minecraft:dried_kelp",
+    "count": 1
+  }
+}

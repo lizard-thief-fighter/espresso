@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "tag": "c:foods/raw_fish"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_aquatic"
+  }
+]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_secure"
+  }
+]
+}

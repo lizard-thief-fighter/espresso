@@ -1,0 +1,5 @@
+#If enabled, Chalks (and Chalk Boxes) will generate in Dungeons, Abandoned Mineshafts, Villages (Planes and Savanna), Cartographer village houses
+#Default: true
+generate_chalk_in_loot_chests = true
+#Glowing marks will occasionally emit sparkling particles. Default: true
+glowing_mark_particles = true

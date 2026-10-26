@@ -1,0 +1,120 @@
+{
+  "replace": true,
+  "priority": 500,
+  "add": {
+    "/(?<ns>[^:]+):(?<wood>.+)_log/": [
+      "${ns}:${wood}_wood",
+      "${ns}:stripped_${wood}_log",
+      "${ns}:stripped_${wood}_log"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_stem/": [
+      "${ns}:${wood}_hyphae",
+      "${ns}:stripped_${wood}_stem",
+      "${ns}:stripped_${wood}_hyphae"
+    ],
+
+    "/minecraft:(?<stem>.+?)_planks/": {
+      "shapes": [
+        "/(?!minecraft:)[^:]+:${stem}_slab/",
+        "/(?!minecraft:)[^:]+:${stem}_stairs/",
+        "/(?!minecraft:)[^:]+:${stem}_wall/"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+
+    "/minecraft:(?<stem>.+?)_block/": {
+      "shapes": [
+        "/(?!minecraft:)[^:]+:${stem}_slab/",
+        "/(?!minecraft:)[^:]+:${stem}_stairs/",
+        "/(?!minecraft:)[^:]+:${stem}_wall/"
+      ],
+      "conditions": {
+        "is_blockitem": true,
+        "not": { "exists": ["/[^:]+:${stem}_planks/"] }
+      }
+    },
+
+    "/minecraft:(?<stem>.+?)(?<end>s|)/": {
+      "shapes": [
+        "/(?!minecraft:)[^:]+:${stem}_slab/",
+        "/(?!minecraft:)[^:]+:${stem}_stairs/",
+        "/(?!minecraft:)[^:]+:${stem}_wall/",
+        "/(?!minecraft:)[^:]+:${stem}${end}_slab/",
+        "/(?!minecraft:)[^:]+:${stem}${end}_stairs/",
+        "/(?!minecraft:)[^:]+:${stem}${end}_wall/"
+      ],
+      "conditions": {
+        "is_blockitem": true,
+        "none_of": [
+          { "exists": ["/[^:]+:${stem}_planks/"] },
+          { "exists": ["/[^:]+:${stem}_block/"] }
+        ]
+      }
+    },
+
+    "/(?<ns>[^:]+):(?<stem>.+?)_planks/": {
+      "shapes": [
+        "${ns}:${stem}_slab",
+        "clutternomore:vertical_${stem}_slab",
+        "clutternomore:${ns}/vertical_${stem}_slab",
+        "${ns}:${stem}_stairs",
+        "${ns}:${stem}_wall",
+        "${ns}:spiked_${stem}"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+
+    "/(?<ns>[^:]+):(?<stem>.+?)_block/": {
+      "shapes": [
+        "${ns}:${stem}_slab",
+        "${ns}:${stem}_vertical_slab",
+        "${ns}:${stem}_stairs",
+        "${ns}:${stem}_wall"
+      ],
+      "conditions": {
+        "is_blockitem": true,
+        "not": { "exists": ["${ns}:${stem}_planks"] }
+      }
+    },
+
+    "/(?<ns>[^:]+):(?<stem>.+?)(?<end>s|)/": {
+      "shapes": [
+        "${ns}:${stem}_slab",
+        "clutternomore:vertical_${stem}_slab",
+        "clutternomore:${ns}/vertical_${stem}_slab",
+        "${ns}:${stem}_stairs",
+        "${ns}:${stem}_wall",
+        "${ns}:${stem}${end}_slab",
+        "clutternomore:vertical_${stem}${end}_slab",
+        "clutternomore:${ns}/vertical_${stem}${end}_slab",
+        "${ns}:${stem}${end}_stairs",
+        "${ns}:${stem}${end}_wall",
+
+        "${ns}:spiked_${stem}",
+        "${ns}:spiked_${stem}${end}"
+      ],
+      "conditions": {
+        "is_blockitem": true,
+        "none_of": [
+          { "exists": ["${ns}:${stem}_planks"] },
+          { "exists": ["${ns}:${stem}_block"] }
+        ]
+      }
+    },
+
+    "/(?<ns>[^:]+):stripped_(?<wood>.+?)_palisade/": [
+      "${ns}:stripped_spiked_${wood}_palisade"
+    ]
+  },
+  "remove": {
+    "#clutternomore:shape_map_blacklist": ["/.*/"],
+    "/.*/": [
+      "#clutternomore:shape_map_blacklist"
+    ]
+  }
+}

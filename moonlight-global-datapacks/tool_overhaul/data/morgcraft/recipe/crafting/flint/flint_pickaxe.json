@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "FF ",
+    "SF ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_pickaxe"
+  }
+}

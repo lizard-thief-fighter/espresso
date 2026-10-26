@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "quark:ancient_fruit"
+    },
+    {
+      "item": "quark:moss_paste"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_everlasting"
+  }
+]
+}

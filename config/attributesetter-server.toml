@@ -1,0 +1,7 @@
+#Settings for the make_unique / make_unique_shared setters
+[unique]
+	#Chat message broadcast when a unique item/entity reaches its cap and the entry doesn't set its own 'message'.
+	#Placeholders: %name% (item/entity name), %limit% (the cap), %count% (same as %limit% when reached).
+	defaultBroadcastMessage = "The last %name% has appeared! (%limit% now exist)"
+	#Whether make_unique entries broadcast to chat when an entry doesn't set its own 'broadcast' flag.
+	broadcastByDefault = true

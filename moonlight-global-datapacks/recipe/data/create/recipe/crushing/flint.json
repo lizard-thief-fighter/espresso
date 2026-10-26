@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "processing_time": 60,
+  "results": [
+    {
+      "chance": 1.0,
+      "id": "nomansland:pebbles"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "removed": [
+    "item:azimuth:ponder_coordinate",
+    "item:create:cardboard_package_10x8",
+    "item:create:cardboard_package_10x12",
+    "item:create:cardboard_package_12x10",
+    "item:create:cardboard_package_12x12",
+    "item:minecraft:end_portal_frame",
+    "item:minecraft:vault",
+    "item:moonlight:spawn_box"
+  ],
+  "filters": [
+    "/.*spawn_egg.*/"
+  ]
+}

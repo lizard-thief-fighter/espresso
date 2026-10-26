@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "H": {
+      "item": "createdieselgenerators:kelp_handle"
+    }
+  },
+  "pattern": [
+    " C ",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_shovel"
+  }
+}

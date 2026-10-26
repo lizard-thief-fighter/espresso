@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:nether_fortress/nether_fortress_core",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/shell/fortress_overhaul_lava_well",
+        "processors": "minecraft:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

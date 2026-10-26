@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "jar"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "jar"
+    }
+  ],
+  "group": "jar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "2 2",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "supplementaries:jar",
+    "count": 3
+  }
+}

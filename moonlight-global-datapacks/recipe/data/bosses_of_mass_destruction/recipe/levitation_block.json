@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "GCG",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "O": {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "bosses_of_mass_destruction:levitation_block"
+  }
+}

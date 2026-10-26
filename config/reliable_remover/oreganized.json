@@ -1,0 +1,22 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "oreganized:electrum_block",
+            "oreganized:electrum_ingot",
+            "oreganized:electrum_nugget",
+            "oreganized:electrum_machete"
+        ],
+        "patterns": [
+            "oreganized:waxed_.*_concrete_powder",
+            "oreganized:molten_lead.*"
+        ]
+    },
+    {
+        "action": "remove_potion",
+        "items": [
+            "oreganized:stunning",
+            "oreganized:long_stunning"
+        ]
+    }
+]

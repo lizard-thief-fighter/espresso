@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/copper"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "powergrid:wire"
+    }
+  ]
+}

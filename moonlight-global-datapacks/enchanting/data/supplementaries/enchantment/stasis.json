@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.supplementaries.stasis"
+  },
+  "effects": {
+    "supplementaries:spawn_bubble_block": {},
+    "supplementaries:projectile_no_gravity": {}
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 5
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/secondary",
+  "supported_items": "#morgcraft:enchantable/stasis",
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

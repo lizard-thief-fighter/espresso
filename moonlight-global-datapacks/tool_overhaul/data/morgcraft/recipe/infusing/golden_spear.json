@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "minecraft:stone_spear"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_spear"
+    }
+  ]
+}

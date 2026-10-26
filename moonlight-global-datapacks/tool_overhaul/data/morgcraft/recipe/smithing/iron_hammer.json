@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "oreganized:lead_nugget"
+  },
+  "result": {
+    "count": 1,
+    "id": "createdieselgenerators:hammer"
+  },
+  "template": {
+    "item": "createdieselgenerators:kelp_handle"
+  }
+}

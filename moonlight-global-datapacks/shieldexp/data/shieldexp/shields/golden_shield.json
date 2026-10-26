@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "cooldownTicks": 100,
+  "speedFactor": 0.60,
+  "parryDamage": 0.0,
+  "parryTicks": 6,
+  "stamina": 1,
+  "blastResistance": 0.0,
+  "flatDamage": 0
+}

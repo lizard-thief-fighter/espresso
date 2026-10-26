@@ -1,0 +1,17 @@
+[
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:planks",
+    "id": [
+      "/quark:vertical_.*_planks/",
+      "quark:azalea_planks"
+    ]
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "create:upright_on_belt",
+    "id": [
+      "nomansdelight:steak_with_sweet_sauce"
+    ]
+  }
+]

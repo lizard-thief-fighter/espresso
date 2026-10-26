@@ -1,0 +1,45 @@
+filename = 'offgrid-neoforge-1.0.1+1.21.1.jar'
+name = 'Offgrid'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1+1.21.1-neoforge'
+
+[download]
+hash = '7fa654e8fefac8807ff99e09d9ceb7c1534b1b439a02091278b9b3d78984e0e83c04f313fe0f7e9809789b572a8b03af4d211b3902e16ff2186541bcf450fb6b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vvgTqF0n/versions/uujLuKlN/offgrid-neoforge-1.0.1%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'vvgTqF0n'
+version = 'uujLuKlN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Vz96hXMh'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gvQqBUqZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'EOA6vv83'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ewyjbmG4'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'

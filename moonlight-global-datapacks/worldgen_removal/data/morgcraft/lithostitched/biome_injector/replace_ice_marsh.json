@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "terralith:ice_marsh"
+  ],
+  "replacement": "minecraft:frozen_river"
+}

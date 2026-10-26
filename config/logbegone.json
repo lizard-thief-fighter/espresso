@@ -1,0 +1,14 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Detected setBlock in a far chunk",
+      "Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.",
+      "[main/WARN] [mixin/]: Error loading class: "
+    ],
+    "regex": [
+      "Detected setBlock in a far chunk",
+      "Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.",
+      "[main/WARN] [mixin/]: Error loading class: "
+    ]
+  }
+}

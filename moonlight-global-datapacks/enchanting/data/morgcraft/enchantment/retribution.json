@@ -1,0 +1,41 @@
+{
+  "description": {
+    "translate": "enchantment.morgcraft.retribution"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:thorns",
+              "max_damage": 0.5,
+              "min_damage": 0.5
+            }
+          ]
+        },
+        "enchanted": "victim"
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "supported_items": "#morgcraft:enchantable/retribution",
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

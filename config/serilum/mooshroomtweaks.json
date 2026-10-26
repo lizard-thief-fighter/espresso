@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Mooshroom Tweaks -> Config",
+	"Enable Mooshroom Tweaks": {
+		"//": "Whether Mooshroom Tweaks is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"becomeBrownChance": {
+		"//": "The chance of a Red Mooshroom becoming a Brown Mooshroom. min: 0, max: 1",
+		"value": 0.5
+	}
+}

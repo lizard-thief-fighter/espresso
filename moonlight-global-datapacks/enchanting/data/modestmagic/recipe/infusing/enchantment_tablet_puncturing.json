@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+	  "item": "minecraft:quartz"
+	},
+  {
+	  "item": "minecraft:pointed_dripstone"
+	},
+  {
+	  "item": "minecraft:arrow"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_puncturing"
+  }
+]
+}

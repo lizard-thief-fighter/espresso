@@ -1,0 +1,35 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Grindstone Sharper Tools -> Config",
+	"Enable Grindstone Sharper Tools": {
+		"//": "Whether Grindstone Sharper Tools is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"usesAfterGrinding": {
+		"//": "The amount of sharper uses a tool has after using it on the grindstone. min: 1, max: 5,000",
+		"value": 128
+	},
+	"sharpenedDamageModifier": {
+		"//": "The damage modifier of sharpened tools. min: 0, max: 100",
+		"value": 1.5
+	},
+	"infiniteCreativeUses": {
+		"//": "Whether to decrease sharpened uses in creative.",
+		"value": false
+	},
+	"sendUsesLeftInChat": {
+		"//": "Sends the sharpened tool user a message at 75%, 50%, 25%, 10%.",
+		"value": true
+	},
+	"showUsesLeftInItemName": {
+		"//": "Shows the uses left in the name of the item.",
+		"value": true
+	},
+	"nameUsesPrefix": {
+		"//": "The prefix of the sharpened uses left in the tool name.",
+		"value": "(Sharpness "
+	},
+	"nameUsesSuffix": {
+		"//": "The suffix of the sharpened uses left in the tool name.",
+		"value": ")"
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "description": {
+    "translate": "enchantment.create.potato_recovery"
+  },
+  "effects": {
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 50.0,
+            "per_level_above_first": 50.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": []
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "supported_items": "create:potato_cannon",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

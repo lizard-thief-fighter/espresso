@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#morgcraft:has_vein_coal",
+  "features": "morgcraft:ore_coal_swamp",
+  "step": "local_modifications"
+}

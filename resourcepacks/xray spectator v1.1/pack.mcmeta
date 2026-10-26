@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "min_format": 1,
+    "max_format": 1000,
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 1000
+    },
+    "description": "§bXray Spectator\n§7Made by Netherspark Studios\n§8X-ray works only in Spectator Mode"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+	  "item": "quark:bottled_cloud"
+	},
+  {
+	  "item": "minecraft:paper"
+	},
+  {
+	  "item": "minecraft:feather"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_light"
+  }
+]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "create:minecart_coupling"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_pickaxe"
+  },
+  "template": {
+    "item": "createdieselgenerators:kelp_handle"
+  }
+}

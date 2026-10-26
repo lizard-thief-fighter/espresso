@@ -1,0 +1,33 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "minecraft:chainmail_leggings"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    [
+      {
+        "item": "minecraft:turtle_scute"
+      },
+      {
+        "item": "nomansland:sturdy_scute"
+      },
+      {
+        "item": "minecraft:armadillo_scute"
+      }
+    ],
+    {
+      "item": "supplementaries:lumisene_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_leggings"
+    }
+  ]
+}

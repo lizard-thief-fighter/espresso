@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/xray",
+  "textures": {
+    "all": "create:block/zinc_ore"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/xray",
+  "textures": {
+    "all": "minecraft:block/raw_copper_block"
+  }
+}

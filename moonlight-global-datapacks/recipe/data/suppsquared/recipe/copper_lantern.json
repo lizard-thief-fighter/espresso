@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "suppsquared:flag",
+      "flag": "lanterns"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "suppsquared:flag",
+      "flag": "lanterns"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "c:nuggets/copper"
+    },
+    "2": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "id": "suppsquared:copper_lantern",
+    "count": 3
+  }
+}

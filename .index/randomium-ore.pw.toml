@@ -1,0 +1,21 @@
+filename = 'randomium-1.21-1.33.4-neoforge.jar'
+name = 'Randomium'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-1.33.4'
+
+[download]
+hash = '782052e167975a729636c58b21643cc9ce366c03d660678f88e7fb19747f24118959aee5ba7c22c5062d57405e16a98844a5918515abb300a80ecade5b4153e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lz9WMhfG/versions/z6usHAXP/randomium-1.21-1.33.4-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'lz9WMhfG'
+version = 'z6usHAXP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'

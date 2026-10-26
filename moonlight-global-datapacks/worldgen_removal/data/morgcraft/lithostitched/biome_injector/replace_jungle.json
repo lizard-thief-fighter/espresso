@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:jungle"
+  ],
+  "replacement": "minecraft:bamboo_jungle"
+}

@@ -1,0 +1,15 @@
+{
+  "removed": [
+    "item:minecraft:axolotl_bucket",
+    "item:minecraft:cod_bucket",
+    "item:minecraft:pufferfish_bucket",
+    "item:minecraft:salmon_bucket",
+    "item:minecraft:tadpole_bucket",
+    "item:minecraft:tropical_fish_bucket",
+    "item:nomansland:billhook_bass_bucket",
+    "item:quark:crab_bucket",
+    "item:quark:slime_in_a_bucket"
+  ],
+  "filters": [
+  ]
+}

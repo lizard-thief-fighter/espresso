@@ -1,0 +1,18 @@
+filename = 'Authentic Shadows_1.21+.zip'
+name = 'Authentic Shadows'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21+'
+
+[download]
+hash = '73272db0fade4e5cb1c63a7f813c4b2ec754432de88e1930c556732e0668314ed722be9e162e9284741f1b862743a3f64cc68bb972f2e64625741595dbfdd5e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kWgq7eAt/versions/2g7fYcvg/Authentic Shadows_1.21%2B.zip'
+
+[update.modrinth]
+mod-id = 'kWgq7eAt'
+version = '2g7fYcvg'

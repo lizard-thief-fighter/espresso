@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.create.capacity"
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/tertiary",
+  "supported_items": "#morgcraft:enchantable/capacity",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

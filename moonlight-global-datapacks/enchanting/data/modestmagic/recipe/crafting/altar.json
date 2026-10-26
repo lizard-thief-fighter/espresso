@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "E": {
+      "tag": "c:ingots/electrum"
+    }
+  },
+  "pattern": [
+    " E ",
+    "AOA",
+    "OOO"
+  ],
+  "result": {
+    "id": "modestmagic:altar"
+  }
+}

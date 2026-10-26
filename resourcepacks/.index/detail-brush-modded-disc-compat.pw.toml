@@ -1,0 +1,64 @@
+filename = 'Detail Brush - Modded Disc Compat.zip'
+name = 'Detail Brush - Modded Disc Compat'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2 Pre-Release 1',
+    '1.20.2-pre1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5 Pre-Release 1',
+    '1.20.5 Pre-Release 2',
+    '1.20.5 Pre-Release 3',
+    '1.20.5-pre1',
+    '1.20.5-pre2',
+    '1.20.5-pre3',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '23w31a',
+    '23w32a',
+    '23w33a',
+    '23w35a',
+    '23w42a',
+    '23w43a',
+    '23w43b',
+    '23w44a',
+    '23w45a',
+    '23w46a',
+    '24w03a',
+    '24w03b',
+    '24w04a',
+    '24w05a',
+    '24w05b',
+    '24w06a',
+    '24w07a',
+    '24w09a',
+    '24w10a',
+    '24w11a',
+    '24w12a',
+    '24w13a',
+    '24w14a',
+    '24w14potato',
+    '24w18a',
+    '24w19a',
+    '24w19b',
+    '24w20a'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.1'
+
+[download]
+hash = '333f357d66a069a02355ca0abe2e2e24724f6b3d9281fed1257849c326ef97be7cc3219241bbf34e0de28ae5292fdc31c0f4de87b732fd73d76e6d33748e56da'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u3z0hX42/versions/eXcHP4o0/Detail Brush - Modded Disc Compat.zip'
+
+[update.modrinth]
+mod-id = 'u3z0hX42'
+version = 'eXcHP4o0'

@@ -1,0 +1,22 @@
+{
+  "type": "exposure:film_developing",
+  "film": {
+    "tag": "c:gems/quartz"
+  },
+  "ingredients": [
+    [
+      {
+        "type": "neoforge:components",
+        "items": "minecraft:potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:mundane"
+          }
+        }
+      }
+    ]
+  ],
+  "result": {
+    "id": "create:rose_quartz"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "block.supplementaries.redstone_illuminator": "Inverted Lamp",
+  "block.supplementaries.crank": "Redstone Crank",
+  "item.supplementaries.wrench": "Architect's Wrench",
+  "advancements.husbandry.wrench.description": "Use an Architect's Wrench to rotate a block"
+}

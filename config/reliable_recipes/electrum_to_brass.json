@@ -1,0 +1,22 @@
+[
+  {
+    "action": "replace_input",
+    "target": "oreganized:electrum_ingot",
+    "replacement": "#c:ingots/brass"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/electrum",
+    "replacement": "#c:ingots/brass"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:plates/electrum",
+    "replacement": "#c:plates/brass"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:nuggets/electrum",
+    "replacement": "#c:nuggets/brass"
+  }
+]

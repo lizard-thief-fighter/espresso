@@ -1,0 +1,20 @@
+[
+    {
+        "action": "remove_enchantment",
+        "enchantments": [
+            "minecraft:density",
+            "minecraft:respiration",
+            "minecraft:soul_speed",
+            "minecraft:swift_sneak",
+            "minecraft:breach",
+            "minecraft:aqua_affinity",
+            "minecraft:bane_of_arthropods",
+            "minecraft:blast_protection",
+            "minecraft:fire_protection",
+            "minecraft:impaling",
+            "minecraft:mending",
+            "minecraft:projectile_protection",
+            "minecraft:smite"
+        ]
+    }
+]

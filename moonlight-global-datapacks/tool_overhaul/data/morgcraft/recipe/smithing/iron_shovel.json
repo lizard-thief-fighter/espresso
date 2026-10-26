@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "create:iron_sheet"
+  },
+  "base": {
+    "item": "createdieselgenerators:kelp_handle"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_shovel"
+  },
+  "template": {
+    "item": "createdieselgenerators:kelp_handle"
+  }
+}

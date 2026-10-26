@@ -1,0 +1,153 @@
+		[types.wood_type.quark]
+			azalea = true
+			ancient = false
+			blossom = false
+
+		[types.wood_type.nomansland]
+			pine = true
+			maple = true
+			walnut = true
+			willow = true
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = false
+
+		[types.cake.nomansland]
+			fruit_cake = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.nomansland]
+			yellow_birch = true
+			autumnal_oak = true
+			pale_cherry = true
+			frosted = true
+			pine = true
+			maple = true
+			red_maple = true
+			walnut = true
+			willow = true
+			apple_fruit = false
+			pear_fruit = false
+
+		[types.lantern.suppsquared]
+			copper_lantern = true
+			brass_lantern = true
+			crimson_lantern = true
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.nomansland]
+			silt = true
+			siltstone = true
+
+		[types.stone_type.oreganized]
+			glance = true
+
+		[types.stone_type.quark]
+			soul_sandstone = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+			permafrost = true
+
+		[entries.wood_type.quark]
+			vertical_planks = false
+			post = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			trapped_chest = true
+			bookshelf = true
+			hollow_log = false
+			vertical_slab = false
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.wood_type.nomansland]
+			bookshelf = false
+			trimmed_planks = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.another_furniture]
+			table = true
+			flower_box = true
+			shelf = true
+			drawer = true
+			shutter = true
+			bench = true
+			chair = true
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = false
+
+		[entries.stone_type.bits_n_bobs]
+			tiles = true
+			tile_stairs = true
+			tile_wall = true
+			tile_slab = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			table_cloth = true
+			cut_wall = true
+			small_bricks = true
+			ladder = true
+			scaffolding = true
+			encased_shaft = true
+			belt_funnel = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			alloy = true
+			encased_large_cogwheel = true
+			door = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			polished_cut_stairs = true
+			encased_cogwheel = true
+			polished_cut_wall = true
+			bars = true
+			cut_slab = true
+			funnel = true
+			casing = true
+
+		[entries.stone_type.quark]
+			polished_vertical_slab = true
+			pillar = true
+			vertical_slab = true
+
+		[entries.mud_type.quark]
+			carved_bricks = true
+			pillar = true
+			brick_lattice = true

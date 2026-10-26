@@ -1,0 +1,40 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.thorns"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:thorns",
+              "max_damage": 0.5,
+              "min_damage": 0.5
+            }
+          ]
+        },
+        "enchanted": "victim"
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/secondary",
+  "supported_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

@@ -1,0 +1,66 @@
+{
+  "biomes": ["minecraft:the_void"],
+  "spacing": 256,
+  "separation": 128,
+  "probability": 0.2,
+  "generation_order": 10,
+
+  "radius": {
+    "type": "uniform",
+    "min_inclusive": 32,
+    "max_inclusive": 128
+  },
+  "min_height": {
+    "type": "constant",
+    "value": {
+      "above_bottom": 65
+    }
+  },
+  "max_height": {
+    "type": "constant",
+    "value": {
+      "above_bottom": 100
+    }
+  },
+
+  "filler": {
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "Name": "minecraft:stone" }
+    },
+    "probability": 0.5,
+    "incoherence": 0.5
+  },
+  "core": {
+    "state_provider": {
+      "type": "nomansland:extended_weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "type": "nomansland:vertical_gradient_state_provider",
+            "above_state": {
+              "type": "minecraft:simple_state_provider",
+              "state": { "Name": "minecraft:coal_ore" }
+            },
+            "below_state": {
+              "type": "minecraft:simple_state_provider",
+              "state": { "Name": "minecraft:deepslate_coal_ore" }
+            },
+            "gradient_top_height": 8,
+            "gradient_bottom_height": 0
+          },
+          "weight": 18
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:coal_block" }
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "probability": 0.5,
+    "incoherence": 0.5
+  }
+}

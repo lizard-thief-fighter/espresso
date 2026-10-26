@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "quark:diamond_heart"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "farmersdelight:meals"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_swift"
+  }
+]
+}

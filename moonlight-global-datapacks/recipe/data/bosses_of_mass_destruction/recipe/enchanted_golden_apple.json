@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "E": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}

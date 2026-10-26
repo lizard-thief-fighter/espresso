@@ -1,0 +1,8 @@
+{
+    "values": [
+        "morgcraft:set_gamerules"
+    ],
+    "remove": [
+        "terralith:setup.mcfunction"
+    ]
+}

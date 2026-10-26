@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "side": "nomansland:block/maple/maple_planks",
+	"top": "nomansland:block/maple/stripped_maple_log"
+  }
+}

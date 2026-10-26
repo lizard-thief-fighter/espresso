@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:gelatin"
+  },
+  "results": [
+    {
+      "id": "create:asurine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk"
+        },
+        {
+          "item": "minecraft:echo_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk"
+        },
+        {
+          "tag": "c:contains_xp"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 25,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:mundane"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:sculk"
+  }
+}

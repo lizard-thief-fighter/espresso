@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:windswept_hills"
+  ],
+  "replacement": "terralith:haze_mountain"
+}

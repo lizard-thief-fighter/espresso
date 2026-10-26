@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:is_projectile",
+    "#minecraft:is_explosion",
+    "#minecraft:is_fall",
+    "#minecraft:is_lightning"
+  ]
+}

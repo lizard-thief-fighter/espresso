@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "farmersdelight:diamond_knife"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:golden_knife"
+    }
+  ]
+}

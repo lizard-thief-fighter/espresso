@@ -1,0 +1,69 @@
+{
+  "biomes": "#morgcraft:has_vein_lead",
+  "sample_biome_at_surface": true,
+  "probability": 1.0,
+  "generation_order": 10,
+
+  "spacing": 128,
+  "separation": 32,
+  "radius": {
+    "type": "uniform",
+    "min_inclusive": 16,
+    "max_inclusive": 64
+  },
+
+  "min_height": {
+    "type": "constant",
+      "value": {
+        "absolute": -40
+      }
+  },
+  "max_height": {
+    "type": "constant",
+      "value": {
+        "absolute": 40
+      }
+  },
+
+  "vein_radius": {
+    "type": "constant",
+    "value": 6.0
+  },
+  "inverted": false,
+
+  "target_condition": {
+         "type": "matching_block_tag",
+         "tag": "nomansland:ore_vein_replaceable"
+  },
+  "filler": {
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "Name": "minecraft:andesite" }
+    },
+    "probability": 1.0,
+    "incoherence": 0.5
+  },
+  "core": {
+    "state_provider": {
+      "type": "nomansland:extended_weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "oreganized:glance" }
+          },
+          "weight": 63
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "oreganized:raw_silver_block" }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "probability": 1.0,
+    "incoherence": 0.5
+  }
+}

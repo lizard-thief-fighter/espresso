@@ -1,0 +1,29 @@
+{
+  "shieldList": [
+    "shieldexp:wooden_shield",
+    "oreganized:electrum_shield",
+    "shieldexp:iron_shield",
+    "shieldexp:netherite_shield",
+    "minecraft:shield",
+    "shieldexp:golden_shield",
+    "shieldexp:diamond_shield"
+  ],
+  "shieldBlacklist": [],
+  "itemOnlyMode": false,
+  "stashingCooldown": false,
+  "generalCooldown": true,
+  "speedModification": true,
+  "advancedExplosions": true,
+  "lenientParry": false,
+  "lenientStamina": false,
+  "tooltips": false,
+  "tooltipCooldown": true,
+  "tooltipStamina": false,
+  "tooltipSpeed": false,
+  "tooltipParryDamage": false,
+  "tooltipParryWindow": true,
+  "tooltipBlastResistance": false,
+  "hudIndicator": true,
+  "hudXOffset": 0,
+  "hudYOffset": 0
+}

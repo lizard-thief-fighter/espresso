@@ -1,0 +1,12 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/industrial_iron",
+    "replacement": "#c:ingots/netherite"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:nuggets/industrial_iron",
+    "replacement": "#c:nuggets/netherite"
+  }
+]

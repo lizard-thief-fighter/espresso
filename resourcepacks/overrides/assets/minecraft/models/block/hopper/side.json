@@ -1,0 +1,180 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"funnel_wall": "create:block/funnel/andesite_funnel_neutral",
+		"funnel_part": "create:block/funnel/andesite_funnel",
+		"indicator": "create:block/funnel/andesite_funnel_unpowered",
+		"funnel_gate": "create:block/funnel/funnel_open",
+		"chute": "create:block/chute",
+		"funnel_frame": "create:block/funnel/andesite_funnel_frame",
+		"vault_bottom": "create:block/vault/vault_bottom_small",
+		"vault_front": "create:block/vault/vault_front_small",
+		"particle": "create:block/vault/vault_side_small",
+		"vault_side": "create:block/vault/vault_side_small"
+	},
+	"elements": [
+		{
+			"name": "Back",
+			"from": [1.925, 0.95, 0.025],
+			"to": [14.075, 13.1, 1.975],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.025, 0]},
+			"faces": {
+				"east": {"uv": [10, 9, 11, 15], "rotation": 180, "texture": "#funnel_part"},
+				"west": {"uv": [10, 9, 11, 15], "texture": "#funnel_part"},
+				"down": {"uv": [10, 9, 10.975, 15], "rotation": 270, "texture": "#funnel_part"}
+			}
+		},
+		{
+			"name": "Back",
+			"from": [1.975, 1, -1.975],
+			"to": [14.025, 13.05, 1.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.05, 7.075, 0]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 6], "texture": "#funnel_part"},
+				"east": {"uv": [9, 9, 10.5, 15], "rotation": 180, "texture": "#funnel_part"},
+				"west": {"uv": [9, 9, 10.5, 15], "texture": "#funnel_part"},
+				"up": {"uv": [9, 9, 10.5, 15], "rotation": 90, "texture": "#funnel_part"},
+				"down": {"uv": [9, 9, 10.5, 15], "rotation": 270, "texture": "#funnel_part"}
+			}
+		},
+		{
+			"from": [1, 7, 1],
+			"to": [15, 10, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 10]},
+			"faces": {
+				"north": {"uv": [1, 1, 4, 15], "rotation": 270, "texture": "#indicator"},
+				"east": {"uv": [1, 1, 4, 15], "rotation": 270, "texture": "#indicator"},
+				"south": {"uv": [1, 1, 4, 15], "rotation": 270, "texture": "#indicator"},
+				"west": {"uv": [1, 1, 4, 15], "rotation": 270, "texture": "#indicator"}
+			}
+		},
+		{
+			"from": [1, 0, 1],
+			"to": [15, 4, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [1, 11, 15, 15], "texture": "#vault_front"},
+				"east": {"uv": [8, 1, 12, 15], "rotation": 90, "texture": "#vault_side"},
+				"south": {"uv": [1, 11, 15, 15], "texture": "#vault_front"},
+				"west": {"uv": [8, 1, 12, 15], "rotation": 90, "texture": "#vault_side"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#vault_bottom"}
+			}
+		},
+		{
+			"from": [1, 4, 1],
+			"to": [15, 7, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 4], "texture": "#vault_front"},
+				"east": {"uv": [1, 1, 4, 15], "rotation": 90, "texture": "#vault_side"},
+				"south": {"uv": [1, 1, 15, 4], "texture": "#vault_front"},
+				"west": {"uv": [1, 1, 4, 15], "rotation": 90, "texture": "#vault_side"}
+			}
+		},
+		{
+			"name": "TopWall_North",
+			"from": [1, 14, 1],
+			"to": [15, 16, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 14, 1]},
+			"faces": {
+				"north": {"uv": [8.5, 0, 15.5, 1], "texture": "#chute"},
+				"east": {"uv": [14.5, 0, 15.5, 1], "texture": "#chute"},
+				"south": {"uv": [15.5, 0, 8.5, 1], "texture": "#chute"},
+				"west": {"uv": [8.5, 0, 9.5, 1], "texture": "#chute"},
+				"up": {"uv": [0.5, 8.5, 7.5, 9.5], "texture": "#chute"}
+			}
+		},
+		{
+			"name": "TopWall_South",
+			"from": [1, 14, 13],
+			"to": [15, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 14, 13]},
+			"faces": {
+				"north": {"uv": [15.5, 0, 8.5, 1], "texture": "#chute"},
+				"east": {"uv": [8.5, 0, 9.5, 1], "texture": "#chute"},
+				"south": {"uv": [8.5, 0, 15.5, 1], "texture": "#chute"},
+				"west": {"uv": [14.5, 0, 15.5, 1], "texture": "#chute"},
+				"up": {"uv": [0.5, 14.5, 7.5, 15.5], "texture": "#chute"}
+			}
+		},
+		{
+			"name": "TopWall_West",
+			"from": [1, 14, 3],
+			"to": [3, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 14, 3]},
+			"faces": {
+				"east": {"uv": [14.5, 0, 9.5, 1], "texture": "#chute"},
+				"west": {"uv": [9.5, 0, 14.5, 1], "texture": "#chute"},
+				"up": {"uv": [0.5, 9.5, 1.5, 14.5], "texture": "#chute"}
+			}
+		},
+		{
+			"name": "TopWall_East",
+			"from": [13, 14, 3],
+			"to": [15, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 14, 3]},
+			"faces": {
+				"east": {"uv": [9.5, 0, 14.5, 1], "texture": "#chute"},
+				"west": {"uv": [14.5, 0, 9.5, 1], "texture": "#chute"},
+				"up": {"uv": [6.5, 9.5, 7.5, 14.5], "texture": "#chute"}
+			}
+		},
+		{
+			"name": "Gate",
+			"from": [2, 12, 2],
+			"to": [14, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 12, 3]},
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#funnel_gate"}
+			}
+		},
+		{
+			"name": "SideWall_North",
+			"from": [0, 9, 0],
+			"to": [16, 15, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 9, 0]},
+			"faces": {
+				"north": {"uv": [11, 0, 14, 8], "rotation": 90, "texture": "#funnel_wall"},
+				"east": {"uv": [11, 0, 14, 1], "rotation": 90, "texture": "#funnel_wall"},
+				"west": {"uv": [11, 7, 14, 8], "rotation": 90, "texture": "#funnel_wall"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#funnel_frame"},
+				"down": {"uv": [0, 14, 16, 16], "texture": "#funnel_frame"}
+			}
+		},
+		{
+			"name": "SideWall_South",
+			"from": [0, 9, 14],
+			"to": [16, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 9, 15]},
+			"faces": {
+				"east": {"uv": [11, 7, 14, 8], "rotation": 90, "texture": "#funnel_wall"},
+				"south": {"uv": [11, 0, 14, 8], "rotation": 90, "texture": "#funnel_wall"},
+				"west": {"uv": [11, 0, 14, 1], "rotation": 90, "texture": "#funnel_wall"},
+				"up": {"uv": [0, 14, 16, 16], "texture": "#funnel_frame"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#funnel_frame"}
+			}
+		},
+		{
+			"name": "SideWall_West",
+			"from": [0, 9, 2],
+			"to": [2, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 9, 14]},
+			"faces": {
+				"west": {"uv": [11, 1, 14, 7], "rotation": 90, "texture": "#funnel_wall"},
+				"up": {"uv": [0, 2, 2, 14], "texture": "#funnel_frame"},
+				"down": {"uv": [0, 2, 2, 14], "texture": "#funnel_frame"}
+			}
+		},
+		{
+			"name": "SideWall_East",
+			"from": [14, 9, 2],
+			"to": [16, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 9, 14]},
+			"faces": {
+				"east": {"uv": [11, 1, 14, 7], "rotation": 90, "texture": "#funnel_wall"},
+				"up": {"uv": [14, 2, 16, 14], "texture": "#funnel_frame"},
+				"down": {"uv": [14, 2, 16, 14], "texture": "#funnel_frame"}
+			}
+		}
+	]
+}

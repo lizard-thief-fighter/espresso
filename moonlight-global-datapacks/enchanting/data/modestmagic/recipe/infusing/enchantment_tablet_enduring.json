@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "nomansland:warding_effigy"
+    },
+    {
+      "tag": "brewinandchewin:fermented_drinks"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    }
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_enduring"
+  }
+]
+}

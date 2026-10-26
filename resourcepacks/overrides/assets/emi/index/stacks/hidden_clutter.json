@@ -1,0 +1,43 @@
+{
+  "removed": [
+    "item:minecraft:black_banner{\"minecraft:banner_patterns\":[{color:\"cyan\",pattern:\"minecraft:stripe_downleft\"},{color:\"cyan\",pattern:\"minecraft:stripe_bottom\"},{color:\"cyan\",pattern:\"minecraft:stripe_left\"},{color:\"black\",pattern:\"minecraft:half_horizontal\"},{color:\"cyan\",pattern:\"minecraft:straight_cross\"},{color:\"white\",pattern:\"minecraft:border\"},{color:\"light_blue\",pattern:\"minecraft:gradient_up\"},{color:\"light_blue\",pattern:\"minecraft:gradient\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"aether.block.aether.swet_banner\"}\u0027}",
+    "item:minecraft:white_banner{\"minecraft:banner_patterns\":[{color:\"cyan\",pattern:\"minecraft:rhombus\"},{color:\"light_gray\",pattern:\"minecraft:stripe_bottom\"},{color:\"gray\",pattern:\"minecraft:stripe_center\"},{color:\"light_gray\",pattern:\"minecraft:border\"},{color:\"black\",pattern:\"minecraft:stripe_middle\"},{color:\"light_gray\",pattern:\"minecraft:half_horizontal\"},{color:\"light_gray\",pattern:\"minecraft:circle\"},{color:\"black\",pattern:\"minecraft:border\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}",
+    "item:minecraft:dragon_egg",
+    "item:supplementaries:flag_white{\"minecraft:banner_patterns\":[{color:\"green\",pattern:\"minecraft:rhombus\"},{color:\"gray\",pattern:\"minecraft:stripe_left\"},{color:\"gray\",pattern:\"minecraft:triangles_top\"},{color:\"gray\",pattern:\"minecraft:triangles_bottom\"},{color:\"black\",pattern:\"minecraft:straight_cross\"},{color:\"gray\",pattern:\"minecraft:half_vertical_right\"},{color:\"black\",pattern:\"minecraft:border\"}],\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"color\":\"gold\",\"translate\":\"block.supplementaries.ominous_flag\"}\u0027}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"quark:resilience\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:infested\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:oozing\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:wind_charged\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:slow_falling\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:luck\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:strength\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:leaping\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:fire_resistance\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:swiftness\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:slowness\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:turtle_master\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:water_breathing\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:harming\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:invisibility\"}}",
+    "item:nomansland:bandage{\"minecraft:potion_contents\":{potion:\"minecraft:night_vision\"}}"
+  ],
+  "filters": [
+    "/.*bud/",
+    "/.*cluster/",
+    "/.*sherd/",
+    "/.*smithing_template.*/",
+    "/.*music_disc.*/",
+    "/.*chest_boat.*/",
+    "create:potion",
+    "minecraft:firework_rocket",
+    "minecraft:ominous_bottle",
+    "minecraft:painting",
+    "quark:seed_pouch",
+    "vista:cassette"
+  ]
+}

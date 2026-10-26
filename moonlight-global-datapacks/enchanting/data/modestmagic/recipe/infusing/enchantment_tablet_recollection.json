@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+	  "item": "vista:crystalline"
+	},
+  {
+	  "item": "minecraft:amethyst_cluster"
+	},
+  {
+	  "item": "minecraft:glass_bottle"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_recollection"
+  }
+]
+}

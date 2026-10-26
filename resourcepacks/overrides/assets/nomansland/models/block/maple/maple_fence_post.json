@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "side": "nomansland:block/maple/stripped_maple_log",
+	"top": "nomansland:block/maple/stripped_maple_log_top"
+  }
+}

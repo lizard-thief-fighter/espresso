@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "terralith:amethyst_rainforest"
+  ],
+  "replacement": "minecraft:bamboo_jungle"
+}

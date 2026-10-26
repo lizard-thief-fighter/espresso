@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "oreganized:lead_ingot"
+  },
+  "results": [
+    {
+      "id": "create:electron_tube"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "create:honey"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 25,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:thick"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:polished_rose_quartz"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:polished_rose_quartz"
+  }
+}

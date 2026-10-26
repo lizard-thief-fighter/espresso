@@ -1,0 +1,38 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.infinity"
+  },
+  "effects": {
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0.0
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:arrow"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "supported_items": "#morgcraft:enchantable/ranged",
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

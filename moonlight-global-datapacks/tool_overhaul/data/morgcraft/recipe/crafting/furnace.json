@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "P": {
+      "tag": "minecraft:clay"
+    }
+  },
+  "pattern": [
+    "CC ",
+    "PP ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace"
+  }
+}

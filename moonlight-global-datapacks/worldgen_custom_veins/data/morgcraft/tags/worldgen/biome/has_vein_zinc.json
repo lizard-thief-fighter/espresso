@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#c:is_old_growth",
+    "minecraft:taiga",
+    "minecraft:snowy_taiga",
+    "minecraft:cherry_grove",
+    "nomansland:dark_taiga",
+    "terralith:birch_taiga",
+    "terralith:siberian_taiga",
+    "terralith:forested_highlands",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley",
+    "terralith:snowy_cherry_grove"
+  ]
+}

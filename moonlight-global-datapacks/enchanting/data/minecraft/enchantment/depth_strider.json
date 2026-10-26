@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.depth_strider"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "id": "minecraft:enchantment.depth_strider",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/tertiary",
+  "supported_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

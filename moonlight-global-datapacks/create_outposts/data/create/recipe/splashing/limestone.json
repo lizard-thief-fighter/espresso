@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "c:fertilizers"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.5,
+      "id": "create:limestone"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "B": {
+      "item": "minecraft:leather_horse_armor"
+    },
+    "H": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "pattern": [
+    "  X",
+    "XBX",
+    "CHC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_leggings"
+  }
+}

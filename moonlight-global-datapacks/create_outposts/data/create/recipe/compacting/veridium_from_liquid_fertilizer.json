@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sliceanddice"
+    }
+  ],
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "sliceanddice:fertilizer"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 25,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:veridium"
+    }
+  ]
+}

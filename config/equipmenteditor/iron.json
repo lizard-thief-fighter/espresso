@@ -1,0 +1,32 @@
+[
+  {
+    "items": [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_sword",
+      "minecraft:iron_spear",
+      "minecraft:iron_axe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_hoe",
+      "minecraft:shears",
+      "minecraft:crossbow",
+      "farmersdelight:iron_knife",
+      "createdieselgenerators:hammer",
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots"
+    ],
+    "durability": 2048
+  },
+  {
+    "items": [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_axe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_hoe",
+      "farmersdelight:iron_knife",
+      "createdieselgenerators:hammer"
+    ],
+    "miningSpeed": 10
+  }
+]

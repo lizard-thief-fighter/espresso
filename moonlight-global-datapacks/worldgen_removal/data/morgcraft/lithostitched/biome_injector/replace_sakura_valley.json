@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "terralith:sakura_valley"
+  ],
+  "replacement": "minecraft:cherry_grove"
+}

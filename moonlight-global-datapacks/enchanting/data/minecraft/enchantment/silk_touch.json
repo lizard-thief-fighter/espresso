@@ -1,0 +1,31 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.silk_touch"
+  },
+  "effects": {
+    "minecraft:block_experience": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0.0
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/primary",
+  "supported_items": "#minecraft:enchantable/mining",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

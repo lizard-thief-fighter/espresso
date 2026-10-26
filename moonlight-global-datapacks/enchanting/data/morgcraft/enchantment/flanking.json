@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.morgcraft.flanking"
+  },
+  "effects": {
+    "farmersdelight:backstabbing": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#morgcraft:exclusive_set/secondary",
+  "supported_items": "#morgcraft:enchantable/ranged",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "anvil_cost": 1,
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "weight": 1
+}

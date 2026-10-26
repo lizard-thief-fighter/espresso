@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+	  "tag": "modulation:infested"
+	},
+  {
+	  "item": "minecraft:fermented_spider_eye"
+	},
+  {
+	  "item": "minecraft:poisonous_potato"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_infested"
+  }
+]
+}

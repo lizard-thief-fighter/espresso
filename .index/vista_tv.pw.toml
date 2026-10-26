@@ -1,0 +1,93 @@
+filename = 'vista-1.21.1-5.5.7-neoforge.jar'
+name = 'Vista'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-5.5.7'
+
+[download]
+hash = 'fa279c2d300fc98dbb65ba4b70b21fd1eefffc3a065b2cfa8fd1703812503611cdde4e81b93635f5b511e3d6921e8eba3dac4f47c256db50a38962064d55dcf1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zuARv1N7/versions/mrDh5q89/vista-1.21.1-5.5.7-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'zuARv1N7'
+version = 'mrDh5q89'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3KUWeVhG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NNAgCjsB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oiuNWinn'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'G922NeHS'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gu7yAYhd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LtZfKhel'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jVZ0F1wn'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'U6GY0xp0'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sk9rgfiA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hB899VmG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uCdwusMi'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4das1Fjq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UXzKPebS'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GchcoXML'
+type = 'OPTIONAL'

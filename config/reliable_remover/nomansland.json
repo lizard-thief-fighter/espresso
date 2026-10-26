@@ -1,0 +1,28 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "nomansland:acacia_bookshelf",
+            "nomansland:bamboo_bookshelf",
+            "nomansland:beard_moss",
+            "nomansland:birch_bookshelf",
+            "nomansland:cherry_bookshelf",
+            "nomansland:crimson_bookshelf",
+            "nomansland:dark_oak_bookshelf",
+            "nomansland:faded_stone_bricks",
+            "nomansland:jungle_bookshelf",
+            "nomansland:mangrove_bookshelf",
+            "nomansland:pancake",
+            "nomansland:sconce_soul_torch",
+            "nomansland:sconce_torch",
+            "nomansland:straw_bed",
+            "nomansland:spike_trap",
+            "nomansland:spruce_bookshelf",
+            "nomansland:warped_bookshelf"
+        ],
+        "patterns": [
+            "/nomansland:.*ancient_pot.*/",
+            "/nomansland:.*siltstone.*/"
+        ]
+    }
+]

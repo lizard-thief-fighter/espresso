@@ -1,0 +1,21 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "createaddition:electric_motor",
+            "createaddition:servo_motor",
+            "createaddition:modular_accumulator",
+            "createaddition:redstone_relay",
+            "createaddition:creative_energy",
+            "createaddition:capacitor",
+            "createaddition:electric_pump",
+            "powergrid:zinc_sheet"
+        ],
+        "patterns": [
+            "createaddition:.*wire",
+            "createaddition:.*spool",
+            "createaddition:.*rod",
+            "createaddition:.*connector"
+        ]
+    }
+]

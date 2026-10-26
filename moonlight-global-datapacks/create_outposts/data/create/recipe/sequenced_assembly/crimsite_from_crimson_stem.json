@@ -1,0 +1,69 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:crimson_stem"
+  },
+  "results": [
+    {
+      "id": "create:crimsite"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:stripped_crimson_stem"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:stripped_crimson_stem"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:stripped_crimson_stem"
+        },
+        {
+          "item": "create:cinder_flour"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:stripped_crimson_stem"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:stripped_warped_stem"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 25,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:awkward"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:stripped_warped_stem"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:stripped_crimson_stem"
+  }
+}

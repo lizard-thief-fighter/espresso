@@ -1,0 +1,20 @@
+{
+  "added": [
+    {
+      "stack": "item:minecraft:painting",
+      "after": "item:minecraft:glow_item_frame"
+    },
+    {
+      "stack": "item:minecraft:ominous_bottle",
+      "after": "item:nomansland:maple_syrup_bottle"
+    },
+    {
+      "stack": "item:minecraft:firework_rocket",
+      "after": "item:minecraft:elytra"
+    },
+    {
+      "stack": "item:quark:seed_pouch",
+      "after": "item:minecraft:lead"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": [
+      "comforts:rope_and_nail",
+      "create:crafting/materials/andesite_alloy_from_zinc",
+      "create:crafting/materials/andesite_alloy",
+      "create:industrial_iron_block_from_ingots_iron_stonecutting",
+      "create:item_application/andesite_casing_from_log",
+      "create:item_application/brass_casing_from_log",
+      "create:item_application/copper_casing_from_log",
+      "create:sandpaper_polishing/rose_quartz",
+      "create:weathered_iron_block_from_ingots_iron_stonecutting",
+      "createdieselgenerators:hammering/iron_sheet",
+      "farmersdelight:cake_from_milk_bottle",
+      "farmersdelight:iron_nugget_from_blasting_knife",
+      "farmersdelight:iron_nugget_from_smelting_knife",
+      "farmersdelight:lead_from_straw",
+      "farmersdelight:wheat_dough_from_water",
+      "minecraft:dispenser",
+      "minecraft:iron_nugget_from_blasting",
+      "minecraft:iron_nugget_from_smelting",
+      "minecraft:netherite_scrap",
+      "modestmagic:enchanting/curse_of_binding",
+      "modestmagic:infusing/echo_shard",
+      "modestmagic:stardust_milling",
+      "modestmagic:stardust",
+      "nomansland:building/sconce_torch",
+      "nomansland:recipe/bundle",
+      "spears:iron_nugget_from_blasting_spear",
+      "spears:iron_nugget_from_smelting_spear",
+      "supplementaries:soap/dirty_glass_pane",
+      "supplementaries:soap/dirty_glass",
+      "supplementaries:soap/dirty_shard",
+      "supplementaries:soap/tipped_arrow",
+      "tide:wooden_crate",
+      "createaddition:mixing/biomass_from_flowers",
+      "createaddition:mixing/biomass_from_honeycomb",
+      "createaddition:mixing/biomass_from_stricks",
+      "createaddition:mixing/biomass_from_saplings",
+      "createaddition:mixing/biomass_from_leaves",
+      "createaddition:mixing/biomass_from_plant_foods",
+      "createaddition:mixing/biomass_from_plants",
+      "nomansland:brown_dye_from_resin"
+    ]
+  },
+  {
+    "action": "remove_recipe",
+    "type": "createdieselgenerators:wire_cutting"
+  },
+  {
+    "action": "remove_recipe",
+    "type": "createaddition:liquid_burning"
+  }
+]

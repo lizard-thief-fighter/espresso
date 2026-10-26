@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "post": "nomansland:block/maple/stripped_maple_log",
+	"plank": "nomansland:block/maple/maple_planks"
+  }
+}

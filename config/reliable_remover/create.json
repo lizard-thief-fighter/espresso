@@ -1,0 +1,20 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "bits_n_bobs:flywheel_bearing",
+            "create:dough",
+            "create:linear_chassis",
+            "create:secondary_linear_chassis",
+            "create:turntable",
+            "create:sand_paper",
+            "create:red_sand_paper",
+            "createdieselgenerators:diesel_engine",
+            "create:experience_nugget",
+            "create:experience_block",
+            "createdieselgenerators:wire_cutters"
+        ],
+        "patterns": [
+        ]
+    }
+]

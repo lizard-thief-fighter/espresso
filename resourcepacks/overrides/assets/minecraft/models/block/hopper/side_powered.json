@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/hopper/down",
+	"textures": {
+		"funnel_wall": "create:block/funnel/andesite_funnel_neutral",
+		"funnel_part": "create:block/funnel/andesite_funnel",
+		"indicator": "create:block/funnel/andesite_funnel_powered",
+		"funnel_gate": "create:block/funnel/funnel_closed",
+		"chute": "create:block/chute",
+		"funnel_frame": "create:block/funnel/andesite_funnel_frame",
+		"vault_bottom": "create:block/vault/vault_bottom_small",
+		"vault_front": "create:block/vault/vault_front_small",
+		"particle": "create:block/vault/vault_side_small",
+		"vault_side": "create:block/vault/vault_side_small"
+	}
+}

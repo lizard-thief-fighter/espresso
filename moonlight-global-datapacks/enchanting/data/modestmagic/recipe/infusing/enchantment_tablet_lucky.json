@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "modestmagic:enchantment_tablet" 
+  },
+  "ingredients": [
+  {
+	  "item": "minecraft:diamond"
+	},
+  {
+    "tag": "c:ores/randomium"
+  },
+  {
+	  "item": "minecraft:rabbit_foot"
+	},
+  {
+	  "item": "nomansland:clover_patch"
+	}
+  ],
+  "results": [
+  {
+    "id": "modestmagic:enchantment_tablet_lucky"
+  }
+]
+}

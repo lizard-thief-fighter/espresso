@@ -1,0 +1,21 @@
+filename = 'amendments-1.21-2.2.2-neoforge.jar'
+name = 'Amendments'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-2.2.2'
+
+[download]
+hash = '1e10793368d1fd532cbcce5795d4c5590c469eb5b79ce93f98f5158e54667ee685e3492e73712cc5bd9481fed3aa426a8d8ecd7885c15fca40742ca97c8b283e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6iTJugQR/versions/OLV6Q846/amendments-1.21-2.2.2-neoforge.jar'
+
+[update.modrinth]
+mod-id = '6iTJugQR'
+version = 'OLV6Q846'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'

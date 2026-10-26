@@ -1,0 +1,51 @@
+filename = 'Simple Lower Grass Sides v1.1.0.zip'
+name = 'Simple Lower Grass Sides'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.15',
+    '1.15.1',
+    '1.15.2',
+    '1.16',
+    '1.16.1',
+    '1.16.2',
+    '1.16.3',
+    '1.16.4',
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = 'e3058ac80582c9051ec63fe10c9d391a5f34ef68c6495d598434bc37c167101ed82024ab4d1304772702f288c0f378ffdd52964b056c291036a5b17dee344535'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yANRnOx8/versions/s7TiSlZQ/Simple Lower Grass Sides v1.1.0.zip'
+
+[update.modrinth]
+mod-id = 'yANRnOx8'
+version = 's7TiSlZQ'

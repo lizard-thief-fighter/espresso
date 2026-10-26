@@ -1,0 +1,31 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Wandering Trader May Leave -> Config",
+	"Enable Wandering Trader May Leave": {
+		"//": "Whether Wandering Trader May Leave is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"despawnTraderLlamasToo": {
+		"//": "If the trader llamas should be despawned alongside the wandering trader when pressing the button.",
+		"value": true
+	},
+	"onlyDespawnLlamasWhenLeashed": {
+		"//": "Whether the trader llamas should only be despawned if they are leashed to the wandering trader.",
+		"value": true
+	},
+	"dropLeashesWhenLlamasDespawn": {
+		"//": "If the leads of despawned trader llamas should drop on the ground as an item.",
+		"value": true
+	},
+	"showDespawnParticles": {
+		"//": "If particles should be shown when despawning the wandering trader and/or trader llamas.",
+		"value": true
+	},
+	"drinkInvisibilityPotionToLeave": {
+		"//": "If the wandering trader should drink an invisibility potion before leaving, like it does at night, instead of disappearing in a puff of particles.",
+		"value": true
+	},
+	"extraEntityTypesThatMayLeave": {
+		"//": "A comma-separated list of entity ids of modded merchants that also get the leave button. Pressing it makes that merchant leave. Only works for merchants that use the vanilla trade screen. Use '<modid>:*' to include every entity of a mod.",
+		"value": "rats:plague_doctor"
+	}
+}

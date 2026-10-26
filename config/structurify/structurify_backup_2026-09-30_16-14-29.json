@@ -1,0 +1,214 @@
+{
+  "config_version": "2.0.41",
+  "config_datetime": "2026-09-30_16-14-03",
+  "general": {
+    "prevent_structure_overlap": true
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_desert",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "betterdungeons:skeleton_dungeon",
+      "start_height": {
+        "min_inclusive": {
+          "absolute": -40
+        },
+        "max_inclusive": {
+          "absolute": -20
+        },
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "name": "betterdungeons:spider_dungeon",
+      "start_height": {
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 20
+        },
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "name": "betterdungeons:zombie_dungeon",
+      "start_height": {
+        "min_inclusive": {
+          "absolute": -20
+        },
+        "max_inclusive": {
+          "absolute": 0
+        },
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "name": "bettermineshafts:mineshaft_lush",
+      "enable_biome_check": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:gauntlet_arena",
+      "start_height": {
+        "absolute": 23
+      }
+    },
+    {
+      "name": "nomansland:creeper_monument",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "nomansland:deep_well",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "nomansland:desert_well",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "nomansland:small_dungeon",
+      "is_disabled": true
+    },
+    {
+      "name": "supplementaries:galleon",
+      "is_disabled": true
+    },
+    {
+      "name": "supplementaries:road_sign",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:desert_outpost",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "terralith:fortified_village",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "terralith:glacial_hut",
+      "enable_flatness_check": true
+    },
+    {
+      "name": "terralith:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/giant_bee_hive",
+      "whitelisted_biomes": [
+        "#c:is_jungle"
+      ]
+    },
+    {
+      "name": "terralith:underground/witch_hut",
+      "whitelisted_biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    {
+      "name": "terralith:underground_cabin",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:witch_hut",
+      "whitelisted_biomes": [
+        "#c:is_swamp"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "betteroceanmonuments:ocean_monument",
+      "spacing": 64,
+      "separation": 32
+    },
+    {
+      "name": "minecraft:ancient_cities",
+      "spacing": 32,
+      "separation": 16
+    },
+    {
+      "name": "minecraft:ruined_portals",
+      "spacing": 48,
+      "separation": 24
+    },
+    {
+      "name": "minecraft:strongholds",
+      "frequency": 0.5
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "spacing": 48,
+      "separation": 24
+    },
+    {
+      "name": "minecraft:villages",
+      "spacing": 48,
+      "separation": 32
+    },
+    {
+      "name": "nomansland:deep_wells",
+      "spacing": 64,
+      "separation": 32
+    },
+    {
+      "name": "oreganized:boulder",
+      "spacing": 64,
+      "separation": 16
+    },
+    {
+      "name": "terralith:mage",
+      "spacing": 48,
+      "separation": 24
+    },
+    {
+      "name": "terralith:rare_village",
+      "spacing": 128,
+      "separation": 32
+    }
+  ],
+  "structure_template_pools": []
+}

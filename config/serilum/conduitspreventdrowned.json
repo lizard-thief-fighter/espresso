@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Conduits Prevent Drowned -> Config",
+	"Enable Conduits Prevent Drowned": {
+		"//": "Whether Conduits Prevent Drowned is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"preventDrownedInRange": {
+		"//": "The euclidian distance range around the drowned where a check for a player with the conduit effect is done. A value of 400 prevents the spawning of all drowned around. min: 0, max: 400",
+		"value": 400
+	}
+}

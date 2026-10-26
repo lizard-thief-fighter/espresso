@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "side": "nomansland:block/walnut/walnut_planks",
+	"top": "nomansland:block/walnut/stripped_walnut_log"
+  }
+}

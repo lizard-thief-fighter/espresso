@@ -1,0 +1,9 @@
+[
+  {
+    "action": "clear_tag",
+    "tag": [
+      "dragonloot:explosion_resistant",
+      "enderitemod:enderite_spear"
+    ]
+  }
+]

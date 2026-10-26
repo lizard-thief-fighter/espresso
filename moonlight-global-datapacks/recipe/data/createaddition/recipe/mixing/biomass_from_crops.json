@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:crops"
+    },
+    {
+      "tag": "c:crops"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createdieselgenerators:plant_oil",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "createaddition:biomass"
+    }
+  ]
+}

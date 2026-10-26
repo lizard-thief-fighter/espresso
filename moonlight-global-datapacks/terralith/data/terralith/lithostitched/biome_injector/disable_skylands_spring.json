@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": "terralith:skylands_spring",
+  "replacement": "minecraft:deep_ocean"
+}

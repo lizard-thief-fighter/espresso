@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "fd_rope",
+  "ingredients": [
+    {
+      "tag": "c:fibers"
+    },
+    {
+      "tag": "c:fibers"
+    },
+    {
+      "tag": "c:fibers"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "supplementaries:rope"
+  }
+}

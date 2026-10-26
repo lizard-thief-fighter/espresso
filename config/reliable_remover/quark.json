@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "quark:iron_ladder",
+            "suppsquared:quark/item_shelf_ancient",
+            "suppsquared:quark/item_shelf_blossom"
+        ],
+        "patterns": [
+            "/.*trapped_.*_chest/"
+        ]
+    }
+]

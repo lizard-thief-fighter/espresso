@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "nomansland:autumnal_forest",
+    "nomansland:boreal_forest",
+    "nomansland:maple_forest",
+    "terralith:temperate_highlands",
+    "terralith:yosemite_lowlands"
+  ]
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "supplementaries:netherite_door",
+            "supplementaries:netherite_trapdoor"
+        ],
+        "patterns": [
+        ]
+    }
+]

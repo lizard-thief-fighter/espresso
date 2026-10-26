@@ -1,0 +1,25 @@
+{
+  "type": "modestmagic:infusing",
+  "base": { 
+    "item": "minecraft:stone_axe"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_axe"
+    }
+  ]
+}

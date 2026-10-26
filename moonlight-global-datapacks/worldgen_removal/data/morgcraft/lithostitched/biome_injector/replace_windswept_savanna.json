@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:windswept_savanna"
+  ],
+  "replacement": "minecraft:savanna"
+}

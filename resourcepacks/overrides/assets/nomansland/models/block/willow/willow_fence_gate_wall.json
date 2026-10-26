@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "post": "nomansland:block/willow/stripped_willow_log",
+	"plank": "nomansland:block/willow/willow_planks"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:rods/copper",
+    "replacement": "#c:nuggets/copper"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:rods/iron",
+    "replacement": "create:shaft"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:rods/brass",
+    "replacement": "#c:nuggets/brass"
+  }
+]

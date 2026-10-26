@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "c:nuggets/brass"
+    },
+    "2": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "id": "suppsquared:brass_lantern",
+    "count": 3
+  }
+}

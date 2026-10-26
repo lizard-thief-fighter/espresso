@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "nomansland:small_willow_checked",
+    "features": [
+      {
+        "chance": 0.8,
+        "feature": "terralith:swamp/orchid/small/swamp_special_small"
+      }
+    ]
+  }
+}

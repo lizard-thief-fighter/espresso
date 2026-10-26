@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": [
+    {
+      "item": "minecraft:chainmail_chestplate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 8
+  }
+}

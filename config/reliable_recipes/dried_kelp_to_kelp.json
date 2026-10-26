@@ -1,0 +1,11 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:dried_kelp",
+    "replacement": "minecraft:kelp",
+    "mod": [
+      "brewinandchewin",
+      "farmersdelight"
+    ]
+  }
+]
