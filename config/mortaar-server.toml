@@ -1,2 +1,0 @@
-#Enable debug features. Will negatively impact performance. Don't enable unless it's needed.
-debug_mode = false
