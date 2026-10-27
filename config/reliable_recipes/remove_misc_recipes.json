@@ -41,6 +41,7 @@
       "createaddition:mixing/biomass_from_leaves",
       "createaddition:mixing/biomass_from_plant_foods",
       "createaddition:mixing/biomass_from_plants",
+      "createaddition:compacting/seed_oil",
       "nomansland:brown_dye_from_resin"
     ]
   },
