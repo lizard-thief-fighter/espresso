@@ -5,7 +5,8 @@ Checks:
   - Every .index/*.pw.toml is a Modrinth URL entry with a sha512 hash and a valid side.
   - Every JSON / .mcmeta file in the datapacks and unzipped resource packs parses strictly.
   - Every espresso: reference in datapacks resolves to a file (tags to tag files).
-  - Every function referenced by a function tag or `function` command exists.
+  - Every function referenced by a function tag or `function` command exists
+    (for namespaces that define functions in the datapacks).
   - Every file/ resource pack enabled in options.txt exists.
 """
 import argparse
@@ -139,16 +140,47 @@ def check_references(root: pathlib.Path, parsed: dict) -> None:
             if path and path[-1] == "id" and isinstance(parent, dict) and "attribute" in parent:
                 continue
             if "tags" in p.parts and p.parts[p.parts.index("tags") + 1] == "function":
-                ok = rid in functions
-            else:
-                ok = rid in tags if is_tag else rid in anything
+                continue  # checked by check_functions
+            ok = rid in tags if is_tag else rid in anything
             if not ok:
                 err(f"{p.relative_to(root)}: unresolved reference {s}")
+
+
+FUNC_CALL = re.compile(r"\bfunction (#?)([a-z0-9_.-]+):([a-z0-9_./-]+)")
+
+
+def check_functions(root: pathlib.Path, parsed: dict) -> None:
+    """Every function referenced by a function tag or a `function` command must exist.
+
+    A function that calls a missing function fails to load, and a function tag
+    with a missing entry fails as a whole (e.g. breaking every #minecraft:load
+    function). Only namespaces that define functions in the datapacks are
+    checked, since mods may provide functions in other namespaces.
+    """
+    dp_root = root / "moonlight-global-datapacks"
+    defined = set()
+    for p in dp_root.glob("*/data/*/function/**/*.mcfunction"):
+        parts = p.relative_to(dp_root).parts  # pack/data/ns/function/...
+        defined.add(f"{parts[2]}:{'/'.join(parts[4:])[:-len('.mcfunction')]}")
+    checked_ns = {d.split(":")[0] for d in defined}
+
+    def missing(fid: str) -> bool:
+        return fid.split(":")[0] in checked_ns and fid not in defined
+
+    for p, data in parsed.items():
+        if dp_root not in p.parents or "tags" not in p.parts:
+            continue
+        if p.parts[p.parts.index("tags") + 1] != "function" or not isinstance(data, dict):
+            continue
+        for v in data.get("values", []):
+            fid, required = (v, True) if isinstance(v, str) else (v.get("id", ""), v.get("required", True))
+            if required and not fid.startswith("#") and missing(fid):
+                err(f"{p.relative_to(root)}: function tag lists missing function {fid}")
     for p in dp_root.glob("*/data/*/function/**/*.mcfunction"):
         for n, line in enumerate(p.read_text().splitlines(), 1):
-            for fid in re.findall(rf"\bfunction {NS}:([a-z0-9_./-]+)", line):
-                if fid not in functions:
-                    err(f"{p.relative_to(root)}:{n}: unknown function {NS}:{fid}")
+            for is_tag, ns, path in FUNC_CALL.findall(line):
+                if not is_tag and missing(f"{ns}:{path}"):
+                    err(f"{p.relative_to(root)}:{n}: calls missing function {ns}:{path}")
 
 
 def check_options(root: pathlib.Path) -> None:
@@ -177,6 +209,7 @@ def main() -> int:
     check_index(root)
     parsed = load_json_files(root)
     check_references(root, parsed)
+    check_functions(root, parsed)
     check_options(root)
     prefix = "::error::" if os.environ.get("GITHUB_ACTIONS") == "true" else "ERROR: "
     for e in errors:
