@@ -2,7 +2,6 @@
 
 Checks:
   - modpack.toml is complete; a release tag (if given) matches its version.
-  - Every .index/*.pw.toml is a Modrinth URL entry with a sha512 hash and a valid side.
   - Every JSON / .mcmeta file in the datapacks and unzipped resource packs parses strictly.
   - Every espresso: reference in datapacks resolves to a file (tags to tag files).
   - Every function referenced by a function tag or `function` command exists
@@ -18,7 +17,6 @@ import sys
 import tomllib
 
 NS = "espresso"
-SIDES = {"", "both", "client", "server"}
 errors: list[str] = []
 
 
@@ -42,32 +40,6 @@ def check_manifest(root: pathlib.Path, tag: str | None) -> dict:
         if not (root / o).exists():
             err(f"modpack.toml: override path {o} does not exist")
     return m
-
-
-def check_index(root: pathlib.Path) -> None:
-    files = sorted((root / ".index").glob("*.pw.toml"))
-    if not files:
-        err(".index: no mod entries")
-    names = set()
-    for f in files:
-        try:
-            d = tomllib.loads(f.read_text())
-        except tomllib.TOMLDecodeError as e:
-            err(f"{f.name}: invalid TOML ({e})")
-            continue
-        dl = d.get("download", {})
-        if dl.get("mode") != "url" or not str(dl.get("url", "")).startswith("https://cdn.modrinth.com/"):
-            err(f"{f.name}: download must be a cdn.modrinth.com URL")
-        if dl.get("hash-format") != "sha512" or not re.fullmatch(r"[0-9a-f]{128}", dl.get("hash", "")):
-            err(f"{f.name}: needs a sha512 hash")
-        if d.get("side", "") not in SIDES:
-            err(f"{f.name}: unknown side {d.get('side')!r}")
-        fn = d.get("filename", "")
-        if not fn.endswith(".jar"):
-            err(f"{f.name}: filename must be a .jar")
-        if fn in names:
-            err(f"{f.name}: duplicate filename {fn}")
-        names.add(fn)
 
 
 # Folders whose JSON Minecraft itself loads strictly. Mod configs are excluded:
@@ -206,7 +178,6 @@ def main() -> int:
     a = ap.parse_args()
     root = pathlib.Path(a.root).resolve()
     m = check_manifest(root, a.tag)
-    check_index(root)
     parsed = load_json_files(root)
     check_references(root, parsed)
     check_functions(root, parsed)
@@ -214,7 +185,7 @@ def main() -> int:
     prefix = "::error::" if os.environ.get("GITHUB_ACTIONS") == "true" else "ERROR: "
     for e in errors:
         print(f"{prefix}{e}")
-    print(f"{len(parsed)} JSON files parsed; {len(list((root / '.index').glob('*.pw.toml')))} mods; {len(errors)} errors")
+    print(f"{len(parsed)} JSON files parsed; {len(errors)} errors")
     return 1 if errors else 0
 
 

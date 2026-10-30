@@ -11,5 +11,5 @@ minecraft = "1.21.1"
 neoforge = "21.1.265"
 
 [build]
-# Copied into the .mrpack `overrides/` folder.
+# Folders that make up the pack content (checked to exist by tools/check_pack.py).
 overrides = ["config", "moonlight-global-datapacks", "resourcepacks", "options.txt"]
