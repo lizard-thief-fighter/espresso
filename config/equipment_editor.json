@@ -1,0 +1,132 @@
+{
+  "rules": [
+    {
+      "items": [
+        "minecraft:wooden_pickaxe",
+        "minecraft:wooden_sword",
+        "minecraft:wooden_spear",
+        "minecraft:wooden_axe",
+        "minecraft:wooden_shovel",
+        "minecraft:wooden_hoe",
+        "farmersdelight:flint_knife",
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "durability": 64
+    },
+    {
+      "items": [
+        "minecraft:stone_pickaxe",
+        "minecraft:stone_sword",
+        "minecraft:stone_spear",
+        "minecraft:stone_axe",
+        "minecraft:stone_shovel",
+        "minecraft:stone_hoe",
+        "farmersdelight:diamond_knife",
+        "minecraft:chainmail_helmet",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_boots"
+      ],
+      "durability": 512
+    },
+    {
+      "items": [
+        "minecraft:golden_pickaxe",
+        "minecraft:golden_sword",
+        "minecraft:golden_spear",
+        "minecraft:golden_axe",
+        "minecraft:golden_shovel",
+        "minecraft:golden_hoe",
+        "minecraft:bow",
+        "farmersdelight:golden_knife",
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_leggings",
+        "minecraft:golden_boots"
+      ],
+      "durability": 1024
+    },
+    {
+      "items": [
+        "minecraft:iron_pickaxe",
+        "minecraft:iron_sword",
+        "minecraft:iron_spear",
+        "minecraft:iron_axe",
+        "minecraft:iron_shovel",
+        "minecraft:iron_hoe",
+        "minecraft:shears",
+        "minecraft:crossbow",
+        "farmersdelight:iron_knife",
+        "createdieselgenerators:hammer",
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots"
+      ],
+      "durability": 2048
+    },
+    {
+      "items": [
+        "minecraft:iron_pickaxe",
+        "minecraft:iron_axe",
+        "minecraft:iron_shovel",
+        "minecraft:iron_hoe",
+        "farmersdelight:iron_knife",
+        "createdieselgenerators:hammer"
+      ],
+      "miningSpeed": 10
+    },
+    {
+      "items": [
+        "oreganized:electrum_pickaxe",
+        "oreganized:electrum_sword",
+        "oreganized:electrum_spear",
+        "oreganized:electrum_axe",
+        "oreganized:electrum_shovel",
+        "oreganized:electrum_hoe",
+        "oreganized:electrum_knife",
+        "oreganized:electrum_helmet",
+        "oreganized:electrum_chestplate",
+        "oreganized:electrum_leggings",
+        "oreganized:electrum_boots"
+      ],
+      "durability": 3072
+    },
+    {
+      "items": [
+        "minecraft:diamond_pickaxe",
+        "minecraft:diamond_sword",
+        "minecraft:diamond_spear",
+        "minecraft:diamond_axe",
+        "minecraft:diamond_shovel",
+        "minecraft:diamond_hoe",
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "durability": 4096
+    },
+    {
+      "items": [
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_sword",
+        "minecraft:netherite_spear",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_shovel",
+        "minecraft:netherite_hoe",
+        "farmersdelight:netherite_knife",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_leggings",
+        "minecraft:netherite_boots",
+        "quark:flamarang"
+      ],
+      "durability": 4096,
+      "unbreakable": true
+    }
+  ]
+}
