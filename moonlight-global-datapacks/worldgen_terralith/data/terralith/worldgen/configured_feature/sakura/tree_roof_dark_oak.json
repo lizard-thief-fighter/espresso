@@ -26,17 +26,6 @@
             "entries": [
                 {
                     "data": {
-                        "Name": "minecraft:jungle_leaves",
-                        "Properties": {
-                            "distance": "7",
-                            "persistent": "false",
-                            "waterlogged": "false"
-                        }
-                    },
-                    "weight": 1
-                },
-                {
-                    "data": {
                         "Name": "minecraft:dark_oak_leaves",
                         "Properties": {
                             "distance": "7",

@@ -14,7 +14,7 @@
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:mangrove_log",
+                "Name": "minecraft:jungle_log",
                 "Properties": {
                     "axis": "y"
                 }
@@ -23,28 +23,6 @@
         "foliage_provider": {
             "type": "minecraft:weighted_state_provider",
             "entries": [
-                {
-                    "weight": 3,
-                    "data": {
-                        "Name": "minecraft:azalea_leaves",
-                        "Properties": {
-                            "distance": "7",
-                            "persistent": "false",
-                            "waterlogged": "false"
-                        }
-                    }
-                },
-                {
-                    "weight": 1,
-                    "data": {
-                        "Name": "minecraft:flowering_azalea_leaves",
-                        "Properties": {
-                            "distance": "7",
-                            "persistent": "false",
-                            "waterlogged": "false"
-                        }
-                    }
-                },
                 {
                     "weight": 2,
                     "data": {
