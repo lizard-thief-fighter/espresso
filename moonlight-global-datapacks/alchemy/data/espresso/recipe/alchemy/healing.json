@@ -3,11 +3,11 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potions": "minecraft:awkward"
+      "potions": "minecraft:thick"
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:glistering_melon_slice"
   },
   "output": {
     "id": "minecraft:potion",

@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:fermented_spider_eye"
   },
   "output": {
     "id": "minecraft:potion",

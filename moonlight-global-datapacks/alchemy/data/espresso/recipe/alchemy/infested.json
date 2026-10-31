@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:stone"
   },
   "output": {
     "id": "minecraft:potion",

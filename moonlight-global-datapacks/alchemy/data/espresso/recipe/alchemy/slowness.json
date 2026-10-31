@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:soul_sand"
   },
   "output": {
     "id": "minecraft:potion",

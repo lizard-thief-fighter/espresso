@@ -1,0 +1,7 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": "minecraft:brewing_vanilla_mix",
+    "output": "minecraft:potion"
+  }
+]

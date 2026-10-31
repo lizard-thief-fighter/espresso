@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:wither_rose"
   },
   "output": {
     "id": "minecraft:potion",

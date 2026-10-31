@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:cobweb"
   },
   "output": {
     "id": "minecraft:potion",

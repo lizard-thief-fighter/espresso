@@ -3,11 +3,11 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potions": "minecraft:awkward"
+      "potions": "minecraft:mundane"
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:amethyst_shard"
   },
   "output": {
     "id": "minecraft:potion",

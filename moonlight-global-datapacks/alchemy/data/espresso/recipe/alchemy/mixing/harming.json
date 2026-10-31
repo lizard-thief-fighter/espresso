@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 250,
+      "fluids": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:awkward"
+        },
+        "create:potion_fluid_bottle_type": "regular"
+      }
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:harming"
+        },
+        "create:potion_fluid_bottle_type": "regular"
+      }
+    }
+  ]
+}

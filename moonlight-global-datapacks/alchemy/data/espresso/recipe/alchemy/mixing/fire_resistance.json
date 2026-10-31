@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 250,
+      "fluids": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick"
+        },
+        "create:potion_fluid_bottle_type": "regular"
+      }
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:fire_resistance"
+        },
+        "create:potion_fluid_bottle_type": "regular"
+      }
+    }
+  ]
+}

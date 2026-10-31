@@ -3,11 +3,11 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potions": "minecraft:awkward"
+      "potions": "minecraft:thick"
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:magma_cream"
   },
   "output": {
     "id": "minecraft:potion",

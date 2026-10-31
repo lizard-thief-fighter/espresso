@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:spider_eye"
   },
   "output": {
     "id": "minecraft:potion",

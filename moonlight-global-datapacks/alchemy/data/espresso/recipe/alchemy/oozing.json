@@ -7,7 +7,7 @@
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:slime_block"
   },
   "output": {
     "id": "minecraft:potion",

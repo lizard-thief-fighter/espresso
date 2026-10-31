@@ -3,11 +3,11 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potions": "minecraft:awkward"
+      "potions": "minecraft:mundane"
     }
   },
   "reagent": {
-    "item": "minecraft:barrier"
+    "item": "minecraft:rabbit_foot"
   },
   "output": {
     "id": "minecraft:potion",

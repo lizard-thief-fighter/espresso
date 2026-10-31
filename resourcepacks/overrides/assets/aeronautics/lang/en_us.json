@@ -214,7 +214,7 @@
   "item.aeronautics.aviators_goggles.tooltip.behaviour1": "_Kinetic components_ show added _Stress Impact_ or _Capacity_. _Stressometers_ show statistics of their _attached kinetic network_. Some other blocks reveal information such as item and fluid content.",
   "item.aeronautics.aviators_goggles.tooltip.condition1": "When looking at blocks",
   "item.aeronautics.aviators_goggles.tooltip.summary": "Augments your HUD with _miscellaneous information_ about placed components.",
-  "item.aeronautics.end_stone_powder": "End Stone Powder",
+  "item.aeronautics.end_stone_powder": "End Stone Dust",
   "item.aeronautics.levitite_blend_bucket": "Levitite Blend Bucket",
   "item.aeronautics.music_disc_cloud_skipper": "Music Disc",
   "jukebox_song.aeronautics.cloud_skipper": "Starlotte - Cloud Skipper"
