@@ -3,7 +3,7 @@
 
 [pack]
 name = "Espresso!"
-version = "0.1.0"
+version = "0.1.1"
 summary = "Expands on Minecraft's open-ended design, with more reasons to pursue every path."
 
 [versions]
