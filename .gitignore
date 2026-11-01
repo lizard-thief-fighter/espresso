@@ -16,3 +16,4 @@ mods/*.jar
 
 dist/
 __pycache__/
+*.bak
