@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/xray",
-  "textures": {
-    "all": "minecraft:block/emerald_block"
-  }
-}

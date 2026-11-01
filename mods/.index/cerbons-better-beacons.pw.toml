@@ -1,0 +1,25 @@
+filename = 'BetterBeacons-NeoForge-1.21.1-2.1.1.jar'
+name = "CERBON's Better Beacons"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'bca39cf9cd200ddf126d31625df0b050d79348f5e13c493a5a3ada7d7623d803a89c3ba5481dd0abe1e4f5de33ee33fa53c0c8a8c3094557fca3552f975768d2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gSeQTNSE/versions/acPk7j8a/BetterBeacons-NeoForge-1.21.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'gSeQTNSE'
+version = 'acPk7j8a'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GkIc6rRo'
+type = 'REQUIRED'

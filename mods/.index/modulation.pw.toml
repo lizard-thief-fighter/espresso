@@ -1,0 +1,29 @@
+filename = 'modulation-4.0.6+1.21.1-neoforge.jar'
+name = 'Modulation'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.6+1.21.1-neoforge'
+
+[download]
+hash = 'a578af137fb24b8d930a0e8208fc6e3b85900bfefdab232da77a2d23e5019e95b00fc52512b2a9e14fec29bafdaedab051dc6e11e3c33c17542f6748950201ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ItRzabx0/versions/2gdYSVNY/modulation-4.0.6%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'ItRzabx0'
+version = '2gdYSVNY'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's9gIPDom'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5pzBXDS3'
+type = 'OPTIONAL'

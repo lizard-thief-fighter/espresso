@@ -1,0 +1,25 @@
+filename = 'Companion-1.21.1-NeoForge-6.3.0.jar'
+name = 'Companion'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '6.3.0+neoforge'
+
+[download]
+hash = 'bdc3b9d19c3650366404a6c4e0959b19ce9759a0861b5df05262eaf9af3ae6b0ed931dfe62b9cf61fe2b92f21bd9ea320822512af8cd27636edcc0010b2ddc7c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4w0EzGRW/versions/PfXPQBGy/Companion-1.21.1-NeoForge-6.3.0.jar'
+
+[update.modrinth]
+mod-id = '4w0EzGRW'
+version = 'PfXPQBGy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ufdDoWPd'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'

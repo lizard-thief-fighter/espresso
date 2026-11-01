@@ -1,2 +1,18 @@
+# Ignore everything in the instance except the pack itself
+/*
+!/config/
+!/mods/
+mods/*.jar
+!/moonlight-global-datapacks/
+!/resourcepacks/
+!/options.txt
+!/icon.png
+
+# Repo tooling
+!/.gitignore
+!/.github/
+!/tools/
+!/modpack.toml
+
 dist/
 __pycache__/

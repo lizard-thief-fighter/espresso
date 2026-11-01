@@ -1,0 +1,18 @@
+filename = 'spear-backport-neoforge-1.8.0-1.21.1.jar'
+name = 'Backported Spears'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8.0'
+
+[download]
+hash = 'fa6e48ad8a8f9649e6fb20558d320c37fe63c48e9105dc21ae58ca8a7df7421909e7cea467f2280b56edbe456356ad4d04b54aad90721c0bfa0ef0dff3011cf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rVUtrHuM/versions/FROwtXRs/spear-backport-neoforge-1.8.0-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'rVUtrHuM'
+version = 'FROwtXRs'

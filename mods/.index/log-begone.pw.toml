@@ -1,0 +1,18 @@
+filename = 'logbegone-neoforge-1.21.1-1.0.3.jar'
+name = 'Log Begone'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3'
+
+[download]
+hash = '5908033aa96432ff55b9d81bd010172e353997312537f82c25b2ddf4767e8dc0100469cefc7513cf1542a919c79f090f7c74e5f29ccd788422231914335d047d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9ON3zv6e/versions/1OrkaiPD/logbegone-neoforge-1.21.1-1.0.3.jar'
+
+[update.modrinth]
+mod-id = '9ON3zv6e'
+version = '1OrkaiPD'

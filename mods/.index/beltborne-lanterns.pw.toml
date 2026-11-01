@@ -1,0 +1,21 @@
+filename = 'beltborne_lanterns-1.2.5-neoforge+1.21.1.jar'
+name = 'Beltborne Lanterns'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.5-neoforge'
+
+[download]
+hash = 'a540eefcdd340cde918a814c55e6f245f46ded7d7ee3b565a7a62b54cc8e27a073baf6b7a0b6c62b95ea5b4632202370617e18e2d15064e0000f6df296c1a9ba'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NUFDZAKS/versions/6pbCx85r/beltborne_lanterns-1.2.5-neoforge%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'NUFDZAKS'
+version = '6pbCx85r'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
