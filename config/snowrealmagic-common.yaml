@@ -23,6 +23,7 @@ accumulation:
   smoothAccumulation: true
   snowAndIceMeltInWarmBiomes: false
   maxLayers: 6
+  worldGenSnowAndFreezeEverywhere: false
   accumulatesDuringSnowstorm: true
   accumulatesDuringSnowfall: false
 integration:

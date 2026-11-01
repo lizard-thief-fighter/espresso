@@ -7,6 +7,12 @@ vertical_slabs = true
 # If steps should be added to all existing stairs
 # default: true
 steps = false
+# If vertical stairs should be added to all existing stairs
+# default: false
+vertical_stairs = false
+# If vertical steps should be added to all existing stairs
+# default: false
+vertical_steps = false
 # If recipes should have their shapes replaced by the parent block
 # default: true
 recipe_fixes = true
