@@ -1,5 +1,5 @@
 {
-  "_comment": "Supplementaries and Supplementaries Squared: gates and timber/daub/metal frames. Flags join banners in decoration.json; item shelves join Another Furniture's shelves in another_furniture.json.",
+  "_comment": "Supplementaries and Supplementaries Squared: gates and timber/daub/metal frames. Flags join banners in decoration.json.",
   "priority": 501,
   "add": {
     "minecraft:iron_bars": ["supplementaries:iron_gate"],

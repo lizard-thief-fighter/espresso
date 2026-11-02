@@ -3,8 +3,7 @@
   "priority": 501,
   "add": {
     "/(minecraft|dye_depot):(?<color>.+)_banner/": [
-      "supplementaries:flag_${color}",
-      "another_furniture:${color}_curtain"
+      "supplementaries:flag_${color}"
     ],
 
     "farmersdelight:canvas_sign": ["farmersdelight:hanging_canvas_sign"],

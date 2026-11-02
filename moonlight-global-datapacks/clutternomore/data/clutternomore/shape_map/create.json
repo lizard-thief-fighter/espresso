@@ -50,8 +50,7 @@
     ],
 
     "/create:(?<color>.+)_seat/": [
-      "bits_n_bobs:${color}_chair",
-      "another_furniture:${color}_tall_stool"
+      "bits_n_bobs:${color}_chair"
     ]
   }
 }

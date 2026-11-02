@@ -1,5 +1,5 @@
 {
-  "_comment": "Wood-type families shared across mods (Quark, Every Compat, Farmer's Delight, Another Furniture, No Man's Land), plus fences and doors of every material.",
+  "_comment": "Wood-type families shared across mods (Quark, Every Compat, Farmer's Delight, No Man's Land), plus fences and doors of every material.",
   "priority": 501,
   "add": {
     "minecraft:bamboo_block": ["minecraft:stripped_bamboo_block"],
@@ -25,20 +25,15 @@
 
     "/(?<ns>[^:]+):(?<stem>.+)_door/": [
       "${ns}:locked_${stem}_door",
-      "${ns}:${stem}_trapdoor",
-      "another_furniture:${stem}_shutter",
-      "everycomp:af/${ns}/${stem}_shutter"
+      "${ns}:${stem}_trapdoor"
     ],
 
     "/(?<ns>[^:]+):(?<wood>.+)_chest/": [
       "farmersdelight:${wood}_cabinet",
-      "everycomp:fd/${ns}/${wood}_cabinet",
-      "another_furniture:${wood}_drawer",
-      "everycomp:af/${ns}/${wood}_drawer"
+      "everycomp:fd/${ns}/${wood}_cabinet"
     ],
     "/everycomp:q/nomansland/(?<wood>.+)_chest/": [
-      "nomansland:${wood}_cabinet",
-      "everycomp:af/nomansland/${wood}_drawer"
+      "nomansland:${wood}_cabinet"
     ],
 
     "/(?<ns>[^:]+):(?<wood>.+)_sign/": [
