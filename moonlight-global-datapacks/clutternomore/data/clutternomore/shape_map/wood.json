@@ -1,0 +1,49 @@
+{
+  "_comment": "Wood-type families shared across mods (Quark, Every Compat, Farmer's Delight, Another Furniture, No Man's Land), plus fences and doors of every material.",
+  "priority": 501,
+  "add": {
+    "minecraft:bamboo_block": ["minecraft:stripped_bamboo_block"],
+
+    "/quark:(?<wood>.+)_post/": ["quark:stripped_${wood}_post"],
+    "/everycomp:q/(?<ns>[^:]+)/(?<wood>.+)_post/": ["everycomp:q/${ns}/stripped_${wood}_post"],
+    "/(?<ns>[^:]+):(?<wood>.+)_post/": ["${ns}:stripped_${wood}_post"],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_planks/": [
+      "nomansland:trimmed_${wood}_planks",
+      "everycomp:nml/${ns}/trimmed_${wood}_planks"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_leaves/": [
+      "quark:${wood}_hedge",
+      "everycomp:q/${ns}/${wood}_hedge"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_fence/": ["${ns}:${wood}_fence_gate"],
+    "minecraft:nether_brick_fence": ["quark:nether_brick_fence_gate"],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_button/": ["${ns}:${wood}_pressure_plate"],
+
+    "/(?<ns>[^:]+):(?<stem>.+)_door/": [
+      "${ns}:locked_${stem}_door",
+      "${ns}:${stem}_trapdoor",
+      "another_furniture:${stem}_shutter",
+      "everycomp:af/${ns}/${stem}_shutter"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_chest/": [
+      "farmersdelight:${wood}_cabinet",
+      "everycomp:fd/${ns}/${wood}_cabinet",
+      "another_furniture:${wood}_drawer",
+      "everycomp:af/${ns}/${wood}_drawer"
+    ],
+    "/everycomp:q/nomansland/(?<wood>.+)_chest/": [
+      "nomansland:${wood}_cabinet",
+      "everycomp:af/nomansland/${wood}_drawer"
+    ],
+
+    "/(?<ns>[^:]+):(?<wood>.+)_sign/": [
+      "${ns}:${wood}_hanging_sign",
+      "/supplementaries:.*way_sign_${wood}/"
+    ]
+  }
+}

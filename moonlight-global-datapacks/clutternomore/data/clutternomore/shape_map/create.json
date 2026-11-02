@@ -1,0 +1,57 @@
+{
+  "_comment": "Create and its addons (Bits 'n' Bobs, Simulated, Create Transmission, Diesel Generators, Slice & Dice, Hot Stuff).",
+  "priority": 501,
+  "add": {
+    "/create:polished_cut_(?<stem>.+)/": [
+      "create:layered_${stem}",
+      "create:${stem}_pillar"
+    ],
+
+    "create:cogwheel": [
+      "create:large_cogwheel",
+      "bits_n_bobs:small_flanged_cogwheel",
+      "bits_n_bobs:large_flanged_cogwheel"
+    ],
+    "create:gearbox": ["create:vertical_gearbox"],
+    "create:gearshift": [
+      "simulated:directional_gearshift",
+      "create:clutch"
+    ],
+    "minecraft:chain": ["createtransmission:transmission_chain"],
+    "create:water_wheel": ["create:large_water_wheel"],
+    "create:white_sail": [
+      "simulated:white_symmetric_sail",
+      "create:sail_frame"
+    ],
+    "hotstuff:copycat_sail": ["hotstuff:copycat_symmetric_sail"],
+    "create:copycat_panel": ["create:copycat_step"],
+    "create:rope_pulley": ["bits_n_bobs:chain_pulley"],
+    "create:linear_chassis": ["create:secondary_linear_chassis"],
+
+    "create:andesite_funnel": ["create:andesite_tunnel"],
+    "create:brass_funnel": ["create:brass_tunnel"],
+    "create:stressometer": ["create:speedometer"],
+    "create:nixie_tube": [
+      "bits_n_bobs:large_nixie_tube",
+      "bits_n_bobs:nixie_board"
+    ],
+    "bits_n_bobs:lightbulb": ["bits_n_bobs:headlamp"],
+    "sliceanddice:sprinkler": ["sliceanddice:floor_sprinkler"],
+
+    "create:metal_girder": [
+      "bits_n_bobs:girder_strut",
+      "bits_n_bobs:cable_girder_strut"
+    ],
+    "bits_n_bobs:weathered_metal_girder": ["bits_n_bobs:weathered_girder_strut"],
+    "createdieselgenerators:andesite_girder": ["createdieselgenerators:andesite_girder_strut"],
+    "bits_n_bobs:industrial_grating": [
+      "bits_n_bobs:industrial_grating_panel",
+      "bits_n_bobs:industrial_truss"
+    ],
+
+    "/create:(?<color>.+)_seat/": [
+      "bits_n_bobs:${color}_chair",
+      "another_furniture:${color}_tall_stool"
+    ]
+  }
+}

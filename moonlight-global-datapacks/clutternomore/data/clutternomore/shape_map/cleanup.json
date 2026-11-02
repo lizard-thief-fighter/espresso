@@ -1,0 +1,14 @@
+{
+  "_comment": "Runs last (highest priority) and only removes mappings: the blacklist tag plus cross-mod families that must stay apart.",
+  "priority": 100000,
+  "remove": {
+    "/minecraft:.*tuff.*/": ["/caverns_and_chasms:.*tuff.*/"],
+    "/caverns_and_chasms:.*tuff.*/": ["/minecraft:.*tuff.*/"],
+    "/minecraft:.*quartz.*/": ["/ae2:.*quartz.*/"],
+    "/ae2:.*quartz.*/": ["/minecraft:.*quartz.*/"],
+    "minecraft:deepslate_tiles": ["/bits_n_bobs:deepslate_tile.*/"],
+
+    "#clutternomore:shape_map_blacklist": ["/.*/"],
+    "/.*/": ["#clutternomore:shape_map_blacklist"]
+  }
+}

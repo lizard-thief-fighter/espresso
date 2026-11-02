@@ -1,0 +1,9 @@
+{
+  "_comment": "Glass blocks with their panes and windows.",
+  "priority": 501,
+  "add": {
+    "minecraft:glass": ["minecraft:glass_pane"],
+    "/(?<ns>[^:]+):(?<stem>.+)_glass/": ["${ns}:${stem}_glass_pane"],
+    "/(?<ns>[^:]+):(?<stem>.+)_window/": ["${ns}:${stem}_window_pane"]
+  }
+}

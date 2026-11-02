@@ -1,0 +1,21 @@
+{
+  "_comment": "Oreganized lead, silver, glance and grimstone families.",
+  "priority": 501,
+  "add": {
+    "oreganized:cut_lead": [
+      "oreganized:lead_bricks",
+      "oreganized:lead_pillar"
+    ],
+    "oreganized:polished_glance": ["oreganized:chiseled_glance"],
+    "/oreganized:(?<state>blemished_|tarnished_|)cut_silver/": [
+      "oreganized:${state}chiseled_silver",
+      "oreganized:${state}silver_pillar",
+      "oreganized:${state}silver_lattice"
+    ],
+
+    "/oreganized:polished_(?<shade>dark|pale)_grimstone/": [
+      "oreganized:chiseled_${shade}_grimstone",
+      "oreganized:${shade}_grimstone_pillar"
+    ]
+  }
+}

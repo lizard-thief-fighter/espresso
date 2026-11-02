@@ -1,0 +1,20 @@
+{
+  "_comment": "Banners, signs, frames and other decoration from several mods, plus coarse dirt and silt.",
+  "priority": 501,
+  "add": {
+    "/(minecraft|dye_depot):(?<color>.+)_banner/": [
+      "supplementaries:flag_${color}",
+      "another_furniture:${color}_curtain"
+    ],
+
+    "farmersdelight:canvas_sign": ["farmersdelight:hanging_canvas_sign"],
+    "/farmersdelight:(?<color>.+)_canvas_sign/": ["farmersdelight:${color}_hanging_canvas_sign"],
+
+    "minecraft:item_frame": ["quark:glass_item_frame"],
+    "minecraft:glow_item_frame": ["quark:glowing_glass_item_frame"],
+    "exposure:photograph_frame": ["exposure:glass_photograph_frame"],
+
+    "minecraft:dirt": ["minecraft:coarse_dirt"],
+    "nomansland:silt": ["nomansland:coarse_silt"]
+  }
+}

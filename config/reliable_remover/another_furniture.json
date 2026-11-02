@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "another_furniture:lamp_connector"
+        ],
+        "patterns": [
+            "another_furniture:[a-z_]+(?<!tall)_stool",
+            "another_furniture:.*_lamp",
+            "another_furniture:.*_sofa",
+            "another_furniture:.*_flower_box",
+            "everycomp:af/.*_flower_box"
+        ]
+    }
+]

@@ -1,11 +1,11 @@
 {
-  "replace": true,
+  "_comment": "Overrides Clutter No More's built-in generic map (same path). Generic families: logs/wood, stems/hyphae, and blocks with their slabs, stairs, walls, vertical slabs and spikes. CNM names runtime vertical slabs clutternomore:vertical_<slab> for vanilla and clutternomore:<mod>/vertical_<slab> for other mods, so the unprefixed form is only used by the minecraft-only rules (otherwise a modded block that shares a vanilla name, like Bits 'n' Bobs deepslate tiles, grabs the vanilla vertical slab and merges the sets). The blacklist removal lives in cleanup.json.",
   "priority": 500,
   "add": {
     "/(?<ns>[^:]+):(?<wood>.+)_log/": [
       "${ns}:${wood}_wood",
       "${ns}:stripped_${wood}_log",
-      "${ns}:stripped_${wood}_log"
+      "${ns}:stripped_${wood}_wood"
     ],
 
     "/(?<ns>[^:]+):(?<wood>.+)_stem/": [
@@ -58,7 +58,6 @@
     "/(?<ns>[^:]+):(?<stem>.+?)_planks/": {
       "shapes": [
         "${ns}:${stem}_slab",
-        "clutternomore:vertical_${stem}_slab",
         "clutternomore:${ns}/vertical_${stem}_slab",
         "${ns}:${stem}_stairs",
         "${ns}:${stem}_wall",
@@ -85,12 +84,10 @@
     "/(?<ns>[^:]+):(?<stem>.+?)(?<end>s|)/": {
       "shapes": [
         "${ns}:${stem}_slab",
-        "clutternomore:vertical_${stem}_slab",
         "clutternomore:${ns}/vertical_${stem}_slab",
         "${ns}:${stem}_stairs",
         "${ns}:${stem}_wall",
         "${ns}:${stem}${end}_slab",
-        "clutternomore:vertical_${stem}${end}_slab",
         "clutternomore:${ns}/vertical_${stem}${end}_slab",
         "${ns}:${stem}${end}_stairs",
         "${ns}:${stem}${end}_wall",
@@ -107,14 +104,31 @@
       }
     },
 
+    "/(?<ns>minecraft):(?<stem>.+?)_planks/": {
+      "shapes": [
+        "clutternomore:vertical_${stem}_slab"
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    },
+
+    "/(?<ns>minecraft):(?<stem>.+?)(?<end>s|)/": {
+      "shapes": [
+        "clutternomore:vertical_${stem}_slab",
+        "clutternomore:vertical_${stem}${end}_slab"
+      ],
+      "conditions": {
+        "is_blockitem": true,
+        "none_of": [
+          { "exists": ["${ns}:${stem}_planks"] },
+          { "exists": ["${ns}:${stem}_block"] }
+        ]
+      }
+    },
+
     "/(?<ns>[^:]+):stripped_(?<wood>.+?)_palisade/": [
       "${ns}:stripped_spiked_${wood}_palisade"
-    ]
-  },
-  "remove": {
-    "#clutternomore:shape_map_blacklist": ["/.*/"],
-    "/.*/": [
-      "#clutternomore:shape_map_blacklist"
     ]
   }
 }

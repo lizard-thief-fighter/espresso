@@ -1,0 +1,39 @@
+{
+  "_comment": "Vanilla and Quark stone, brick and metal-block families. Keep sets to about 6 items: a block with its slab/stairs/wall plus loose variants (cracked, chiseled, pillar). Do not merge two blocks that each have their own slab/stairs/wall.",
+  "priority": 501,
+  "add": {
+    "/(?<ns>[^:]+):(?<stem>.+)_bricks/": ["${ns}:cracked_${stem}_bricks"],
+    "/(?<ns>[^:]+):(?<stem>.+)_tiles/": ["${ns}:cracked_${stem}_tiles"],
+    "/minecraft:(?<stem>.+)/": ["minecraft:chiseled_${stem}"],
+
+    "minecraft:quartz_block": [
+      "minecraft:chiseled_quartz_block",
+      "minecraft:quartz_bricks",
+      "minecraft:quartz_pillar"
+    ],
+    "minecraft:purpur_block": ["minecraft:purpur_pillar"],
+    "minecraft:mud_bricks": [
+      "quark:carved_mud_bricks",
+      "quark:mud_pillar",
+      "quark:mud_brick_lattice"
+    ],
+    "quark:midori_block": ["quark:midori_pillar"],
+    "quark:iron_plate": ["quark:iron_pillar"],
+
+    "quark:soul_sandstone": ["quark:chiseled_soul_sandstone"],
+    "minecraft:basalt": ["minecraft:polished_basalt"],
+    "minecraft:end_stone": ["minecraft:end_stone_bricks"],
+
+    "minecraft:terracotta": ["quark:shingles"],
+    "/minecraft:(?<color>.+)_terracotta/": ["quark:${color}_shingles"],
+
+    "minecraft:cut_copper": [
+      "minecraft:chiseled_copper",
+      "minecraft:copper_grate"
+    ],
+    "/minecraft:(?<stem>.+)_cut_copper/": [
+      "minecraft:${stem}_chiseled_copper",
+      "minecraft:${stem}_copper_grate"
+    ]
+  }
+}
